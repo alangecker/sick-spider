@@ -2958,7 +2958,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 114.3268 94.9842 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c869712-8185-442c-8505-a6e48751ed0a)
-    (property "Reference" "C4" (at 113.4378 87.6182 90)
+    (property "Reference" "C5" (at 113.4378 87.6182 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220u/10V" (at 113.4378 90.1582 90)
@@ -2975,7 +2975,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2984,7 +2984,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 66.421 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d694df2-8e6a-423c-bb16-a650b8433013)
-    (property "Reference" "R22" (at 238.125 65.151 0)
+    (property "Reference" "R19" (at 238.125 65.151 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 238.125 67.691 0)
@@ -3001,7 +3001,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R22") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3010,7 +3010,7 @@
   (symbol (lib_id "power:GND") (at 27.813 48.768 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ec8ba57-57f3-41ca-8ac9-8e1f48fd14e9)
-    (property "Reference" "#PWR01" (at 27.813 55.118 0)
+    (property "Reference" "#PWR02" (at 27.813 55.118 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.813 53.4162 0)
@@ -3026,7 +3026,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3035,7 +3035,7 @@
   (symbol (lib_id "Device:Q_PMOS_GDS") (at 41.8592 133.5532 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1075c3f0-8d46-4f1d-9cb4-0ba0835c5b38)
-    (property "Reference" "Q3" (at 41.8592 123.825 90)
+    (property "Reference" "Q1" (at 41.8592 123.825 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AOI21357" (at 41.8592 126.365 90)
@@ -3053,7 +3053,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "Q3") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -3087,7 +3087,7 @@
   (symbol (lib_id "Device:R_Small") (at 176.5074 66.9116 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15a76951-b578-455e-a717-3ce22df572a1)
-    (property "Reference" "R12" (at 178.4124 68.715 90)
+    (property "Reference" "R13" (at 178.4124 68.715 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 177.9044 65.1336 90)
@@ -3104,7 +3104,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3166,7 +3166,7 @@
   (symbol (lib_id "power:GND") (at 26.8224 147.2692 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1aab12a7-5cb8-4e78-b2f7-f53d8dce84a0)
-    (property "Reference" "#PWR031" (at 26.8224 153.6192 0)
+    (property "Reference" "#PWR01" (at 26.8224 153.6192 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.8224 152.3492 0)
@@ -3182,7 +3182,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3191,7 +3191,7 @@
   (symbol (lib_id "Device:R_Small") (at 217.932 126.365 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cccd172-bfae-4517-b67e-8132d7a09ec5)
-    (property "Reference" "R14" (at 217.932 121.031 90)
+    (property "Reference" "R18" (at 217.932 121.031 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 217.932 123.571 90)
@@ -3208,7 +3208,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R14") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3217,7 +3217,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 133.1468 88.4143 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d64d315-7313-48e1-a58a-897c85535309)
-    (property "Reference" "J3" (at 137.7696 85.2393 90)
+    (property "Reference" "J6" (at 137.7696 85.2393 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 137.7696 87.7793 90)
@@ -3235,7 +3235,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J3") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3244,7 +3244,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.698 111.379 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 268323c3-bae8-4a43-b11d-49e622347963)
-    (property "Reference" "R19" (at 250.698 117.475 90)
+    (property "Reference" "R22" (at 250.698 117.475 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100-0.1%" (at 250.698 114.935 90)
@@ -3261,7 +3261,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R19") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3270,7 +3270,7 @@
   (symbol (lib_id "power:GND") (at 124.8664 162.1282 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2786114d-b2d0-4ed8-bce0-9f3797b5870b)
-    (property "Reference" "#PWR034" (at 124.8664 168.4782 0)
+    (property "Reference" "#PWR015" (at 124.8664 168.4782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.8664 166.9542 0)
@@ -3286,7 +3286,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3295,7 +3295,7 @@
   (symbol (lib_id "power:GND") (at 231.394 154.051 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 280edfbe-6026-45c5-92d1-507c0e21050c)
-    (property "Reference" "#PWR027" (at 231.394 160.401 0)
+    (property "Reference" "#PWR035" (at 231.394 160.401 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.394 158.623 0)
@@ -3311,7 +3311,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3320,7 +3320,7 @@
   (symbol (lib_id "Device:D_Zener") (at 236.22 46.736 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 295c22d7-9a28-480c-a2ba-72776c7e96c1)
-    (property "Reference" "D1" (at 238.252 45.466 90)
+    (property "Reference" "D2" (at 238.252 45.466 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6.2V" (at 238.252 48.006 90)
@@ -3337,7 +3337,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3346,7 +3346,7 @@
   (symbol (lib_id "power:GND") (at 85.4964 189.3062 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29b14e67-93bf-4ab6-8e6d-835889a45deb)
-    (property "Reference" "#PWR038" (at 85.4964 195.6562 0)
+    (property "Reference" "#PWR011" (at 85.4964 195.6562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.4964 193.5226 0)
@@ -3362,7 +3362,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3371,7 +3371,7 @@
   (symbol (lib_id "power:GND") (at 236.22 70.866 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ad632ee-4f1e-4afc-a333-a288e74d9343)
-    (property "Reference" "#PWR030" (at 236.22 77.216 0)
+    (property "Reference" "#PWR036" (at 236.22 77.216 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 75.946 0)
@@ -3387,7 +3387,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3396,7 +3396,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 119.3419 40.0548 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c947fab-910b-41b8-a0f2-436efb963aba)
-    (property "Reference" "J5" (at 123.9647 36.8798 90)
+    (property "Reference" "J4" (at 123.9647 36.8798 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 123.9647 39.4198 90)
@@ -3414,7 +3414,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3423,7 +3423,7 @@
   (symbol (lib_id "Device:R_Small") (at 201.779 27.1693 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2febde25-3bcf-4ef3-87a5-54be524af27e)
-    (property "Reference" "R15" (at 203.684 28.9727 90)
+    (property "Reference" "R14" (at 203.684 28.9727 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 203.176 25.3913 90)
@@ -3440,7 +3440,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3476,7 +3476,7 @@
   (symbol (lib_id "power:GND") (at 154.3431 46.5064 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 340e1be9-9295-4544-91c3-765e09cef293)
-    (property "Reference" "#PWR017" (at 160.6931 46.5064 0)
+    (property "Reference" "#PWR023" (at 160.6931 46.5064 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.9499 46.5064 90)
@@ -3492,7 +3492,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -3501,7 +3501,7 @@
   (symbol (lib_id "power:GND") (at 204.978 139.573 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37571c40-c10f-471d-ad6a-ce84eed3e8b7)
-    (property "Reference" "#PWR022" (at 204.978 145.923 0)
+    (property "Reference" "#PWR033" (at 204.978 145.923 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.978 144.907 0)
@@ -3517,7 +3517,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3552,7 +3552,7 @@
   (symbol (lib_id "power:+5V") (at 133.223 138.049 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3de9b867-973d-4a2f-b85b-6a3a36177458)
-    (property "Reference" "#PWR035" (at 133.223 141.859 0)
+    (property "Reference" "#PWR019" (at 133.223 141.859 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.223 133.731 0)
@@ -3568,7 +3568,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3577,7 +3577,7 @@
   (symbol (lib_id "Device:R_Small") (at 253.873 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e17e398-9aa7-4599-8ee0-9036e80573b4)
-    (property "Reference" "R24" (at 255.397 48.26 0)
+    (property "Reference" "R25" (at 255.397 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 255.397 50.8 0)
@@ -3594,7 +3594,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R24") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3603,7 +3603,7 @@
   (symbol (lib_id "Device:R_Small") (at 176.4411 46.9128 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e38bbc7-8ba2-4855-8fae-21e74b3eeb9a)
-    (property "Reference" "R11" (at 178.3461 48.7162 90)
+    (property "Reference" "R12" (at 178.3461 48.7162 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 177.8381 45.1348 90)
@@ -3620,7 +3620,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3629,7 +3629,7 @@
   (symbol (lib_id "power:GND") (at 100.076 83.5375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e912a14-2c1c-4d2a-b1df-c75fafe4e61d)
-    (property "Reference" "#PWR010" (at 100.076 89.8875 0)
+    (property "Reference" "#PWR014" (at 100.076 89.8875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.076 87.9825 0)
@@ -3645,7 +3645,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3654,7 +3654,7 @@
   (symbol (lib_id "power:GND") (at 256.032 134.747 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43fb42dd-07af-4174-b62c-a25514e179e4)
-    (property "Reference" "#PWR029" (at 256.032 141.097 0)
+    (property "Reference" "#PWR038" (at 256.032 141.097 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.032 139.065 0)
@@ -3670,7 +3670,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3704,7 +3704,7 @@
   (symbol (lib_id "Device:LED") (at 271.907 39.497 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 493123f5-a17d-45e2-bfde-8ec6e2158dd2)
-    (property "Reference" "D3" (at 275.209 39.8145 90)
+    (property "Reference" "D4" (at 275.209 39.8145 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 275.209 42.3545 90)
@@ -3721,7 +3721,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3730,7 +3730,7 @@
   (symbol (lib_id "Device:R") (at 124.8664 155.7782 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4988027f-9a1c-434d-826a-363caf0fc59d)
-    (property "Reference" "R27" (at 126.8984 154.5082 0)
+    (property "Reference" "R2" (at 126.8984 154.5082 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330" (at 126.8984 157.0482 0)
@@ -3747,7 +3747,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R27") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3756,7 +3756,7 @@
   (symbol (lib_id "power:GND") (at 178.7158 27.3725 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4999d39c-7b52-4fac-b39a-25404ddf5e11)
-    (property "Reference" "#PWR019" (at 185.0658 27.3725 0)
+    (property "Reference" "#PWR027" (at 185.0658 27.3725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.3226 27.3725 90)
@@ -3772,7 +3772,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3781,7 +3781,7 @@
   (symbol (lib_id "Device:R_Small") (at 176.1758 27.3725 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 533fcf30-8565-4246-8b96-cb2b43c1f8cc)
-    (property "Reference" "R10" (at 178.0808 29.1759 90)
+    (property "Reference" "R11" (at 178.0808 29.1759 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 177.5728 25.5945 90)
@@ -3798,7 +3798,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3833,7 +3833,7 @@
   (symbol (lib_id "power:GND") (at 154.4094 66.5052 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55f7ca04-9b6d-4f20-8b7a-275e31e8c2e6)
-    (property "Reference" "#PWR018" (at 160.7594 66.5052 0)
+    (property "Reference" "#PWR024" (at 160.7594 66.5052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 158.0162 66.5052 90)
@@ -3849,7 +3849,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3858,7 +3858,7 @@
   (symbol (lib_id "power:+5VA") (at 231.394 138.811 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c5ef32a-9e54-429b-bd1d-179053e9e637)
-    (property "Reference" "#PWR026" (at 231.394 142.621 0)
+    (property "Reference" "#PWR034" (at 231.394 142.621 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 231.394 134.493 0)
@@ -3874,7 +3874,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3909,7 +3909,7 @@
   (symbol (lib_id "Regulator_Linear:LM7805_TO220") (at 75.565 130.937 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f2e0787-299c-4fcc-930c-6a1c39f49d1c)
-    (property "Reference" "U4" (at 75.565 124.1298 0)
+    (property "Reference" "U2" (at 75.565 124.1298 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM7805_TO220" (at 75.565 126.6698 0)
@@ -3927,7 +3927,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3962,7 +3962,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 216.408 132.969 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 641b9ed0-de05-41c1-a9e3-dcdb34251453)
-    (property "Reference" "U3" (at 216.408 143.383 0)
+    (property "Reference" "U4" (at 216.408 143.383 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM4562" (at 216.408 140.843 0)
@@ -3985,7 +3985,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "U3") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -3994,7 +3994,7 @@
   (symbol (lib_id "power:GND") (at 204.5843 46.7096 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6883ccbb-b8cf-4060-adaf-95d8280910ed)
-    (property "Reference" "#PWR024" (at 210.9343 46.7096 0)
+    (property "Reference" "#PWR031" (at 210.9343 46.7096 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.1911 46.7096 90)
@@ -4010,7 +4010,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -4019,7 +4019,7 @@
   (symbol (lib_id "power:+5VA") (at 92.202 76.1715 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a5f43c8-f670-4780-91ac-99e76ef29a9f)
-    (property "Reference" "#PWR07" (at 92.202 79.9815 0)
+    (property "Reference" "#PWR012" (at 92.202 79.9815 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 91.821 72.517 0)
@@ -4035,7 +4035,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4070,7 +4070,7 @@
   (symbol (lib_id "power:GND") (at 77.8764 189.3062 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70ceaa82-872c-4ea5-8b02-0bbbc0b5356e)
-    (property "Reference" "#PWR033" (at 77.8764 195.6562 0)
+    (property "Reference" "#PWR08" (at 77.8764 195.6562 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.8764 193.5226 0)
@@ -4086,7 +4086,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4095,7 +4095,7 @@
   (symbol (lib_id "power:GND") (at 128.4746 27.1693 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72294f02-40d8-4aee-aef4-d07daa638294)
-    (property "Reference" "#PWR012" (at 134.8246 27.1693 0)
+    (property "Reference" "#PWR016" (at 134.8246 27.1693 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.0814 27.1693 90)
@@ -4111,7 +4111,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4120,7 +4120,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 144.9451 39.8516 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 741930c4-d1a2-45cc-92fc-451caea528e6)
-    (property "Reference" "J9" (at 149.5679 36.6766 90)
+    (property "Reference" "J8" (at 149.5679 36.6766 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 149.5679 39.2166 90)
@@ -4138,7 +4138,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J9") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -4147,7 +4147,7 @@
   (symbol (lib_id "power:GND") (at 92.3036 105.2799 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 782e61ae-ece2-44c2-b8b7-d9ae1a809667)
-    (property "Reference" "#PWR08" (at 92.3036 111.6299 0)
+    (property "Reference" "#PWR013" (at 92.3036 111.6299 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.3036 110.3599 0)
@@ -4163,7 +4163,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4202,7 +4202,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 158.75 88.2111 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c686170-4bb5-48f1-b1ea-1e342a8a86a6)
-    (property "Reference" "J7" (at 163.3728 85.0361 90)
+    (property "Reference" "J10" (at 163.3728 85.0361 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 163.3728 87.5761 90)
@@ -4220,7 +4220,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J7") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -4229,7 +4229,7 @@
   (symbol (lib_id "Device:C_Small") (at 84.5058 134.5438 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8042111e-920d-4a41-adb7-871445cce427)
-    (property "Reference" "C6" (at 87.884 133.2801 0)
+    (property "Reference" "C2" (at 87.884 133.2801 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 86.6394 135.7884 0)
@@ -4246,7 +4246,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "C6") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4255,7 +4255,7 @@
   (symbol (lib_id "Device:R_Small") (at 140.0048 95.0691 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 828d5427-add7-43bc-9bce-ea4716c11776)
-    (property "Reference" "R2" (at 141.9098 96.8725 90)
+    (property "Reference" "R6" (at 141.9098 96.8725 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 141.4018 93.2911 90)
@@ -4272,7 +4272,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4281,7 +4281,7 @@
   (symbol (lib_id "power:+5VA") (at 155.575 138.049 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82ada33b-2523-4cfa-8e46-10e63fcd7d54)
-    (property "Reference" "#PWR037" (at 155.575 141.859 0)
+    (property "Reference" "#PWR025" (at 155.575 141.859 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VA" (at 155.575 132.715 0)
@@ -4297,7 +4297,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4332,7 +4332,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.698 108.839 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86682438-ccbf-4fc6-bdc5-5547a1f584c8)
-    (property "Reference" "R18" (at 250.698 102.87 90)
+    (property "Reference" "R21" (at 250.698 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100-0.1%" (at 250.698 105.41 90)
@@ -4349,7 +4349,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R18") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -4358,7 +4358,7 @@
   (symbol (lib_id "power:GND") (at 128.7399 46.7096 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a41bee1-0d9b-4b24-96ab-476ad0419bd7)
-    (property "Reference" "#PWR013" (at 135.0899 46.7096 0)
+    (property "Reference" "#PWR017" (at 135.0899 46.7096 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.3467 46.7096 90)
@@ -4374,7 +4374,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4383,7 +4383,7 @@
   (symbol (lib_id "power:GND") (at 142.5448 95.0691 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a9ba3e3-6b27-4d02-826d-183b5f99395d)
-    (property "Reference" "#PWR011" (at 148.8948 95.0691 0)
+    (property "Reference" "#PWR020" (at 148.8948 95.0691 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.1516 95.0691 90)
@@ -4399,7 +4399,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4408,7 +4408,7 @@
   (symbol (lib_id "power:GND") (at 149.733 147.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8bf41d9c-8476-4aa8-91ab-88ecd13514b4)
-    (property "Reference" "#PWR036" (at 149.733 154.305 0)
+    (property "Reference" "#PWR021" (at 149.733 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.733 153.035 0)
@@ -4424,7 +4424,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4459,7 +4459,7 @@
   (symbol (lib_id "power:GND") (at 38.3808 100.5722 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9315b705-beac-4c19-9cab-4dfd752cddd9)
-    (property "Reference" "#PWR02" (at 38.3808 106.9222 0)
+    (property "Reference" "#PWR03" (at 38.3808 106.9222 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.3808 105.2204 0)
@@ -4475,7 +4475,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4484,7 +4484,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.952 130.937 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99dcb486-970a-4a11-a090-ab4bed0a8b3b)
-    (property "Reference" "R21" (at 250.952 137.033 90)
+    (property "Reference" "R24" (at 250.952 137.033 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100-0.1%" (at 250.952 134.493 90)
@@ -4501,7 +4501,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R21") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -4510,7 +4510,7 @@
   (symbol (lib_id "power:GND") (at 179.0474 66.9116 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9edc86af-5791-4de5-90ea-323bcdeb40ed)
-    (property "Reference" "#PWR021" (at 185.3974 66.9116 0)
+    (property "Reference" "#PWR029" (at 185.3974 66.9116 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.6542 66.9116 90)
@@ -4526,7 +4526,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4560,7 +4560,7 @@
   (symbol (lib_id "power:GND") (at 128.8062 66.7084 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a098a3c6-d55f-409d-9303-28f3a6c3d051)
-    (property "Reference" "#PWR014" (at 135.1562 66.7084 0)
+    (property "Reference" "#PWR018" (at 135.1562 66.7084 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.413 66.7084 90)
@@ -4576,7 +4576,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4612,7 +4612,7 @@
   (symbol (lib_id "Transistor_BJT:BC547") (at 269.367 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1cdbeed-b50c-4353-a29b-baaaa1d407b1)
-    (property "Reference" "Q2" (at 275.463 53.34 0)
+    (property "Reference" "Q3" (at 275.463 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC547" (at 275.463 55.88 0)
@@ -4630,7 +4630,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -4639,7 +4639,7 @@
   (symbol (lib_id "Transistor_BJT:BC547") (at 251.333 61.341 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a30e4132-84fc-434b-92da-4f9fd4819e56)
-    (property "Reference" "Q1" (at 257.429 60.071 0)
+    (property "Reference" "Q2" (at 257.429 60.071 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC547" (at 257.429 62.611 0)
@@ -4657,7 +4657,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -4693,7 +4693,7 @@
   (symbol (lib_id "power:GND") (at 75.5142 140.5128 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a460b6b8-809e-44f7-98b2-8f336b1692a1)
-    (property "Reference" "#PWR032" (at 75.5142 146.8628 0)
+    (property "Reference" "#PWR07" (at 75.5142 146.8628 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.5142 144.7038 0)
@@ -4709,7 +4709,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4718,7 +4718,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 144.6798 20.3113 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4ad6b4e-de1d-4ede-8b15-e4a4d6ebde05)
-    (property "Reference" "J8" (at 149.7866 17.1363 90)
+    (property "Reference" "J7" (at 149.7866 17.1363 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 149.7866 19.6763 90)
@@ -4736,7 +4736,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J8") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -4745,7 +4745,7 @@
   (symbol (lib_id "Device:R_Small") (at 202.0443 46.7096 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab0aaef8-36c5-4565-bd72-a7b4e33f533a)
-    (property "Reference" "R16" (at 203.9493 48.513 90)
+    (property "Reference" "R15" (at 203.9493 48.513 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 203.4413 44.9316 90)
@@ -4762,7 +4762,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4771,7 +4771,7 @@
   (symbol (lib_id "Amplifier_Audio:LM386") (at 95.0228 94.9842 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adb594dd-228b-44ca-8da5-33860a5b6fe0)
-    (property "Reference" "U2" (at 106.9608 90.7933 0)
+    (property "Reference" "U3" (at 106.9608 90.7933 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM386N-1" (at 106.9608 93.3333 0)
@@ -4794,7 +4794,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4856,7 +4856,7 @@
   (symbol (lib_id "power:GND") (at 178.9811 46.9128 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6351c75-f409-413e-9272-8edc343bd0c4)
-    (property "Reference" "#PWR020" (at 185.3311 46.9128 0)
+    (property "Reference" "#PWR028" (at 185.3311 46.9128 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.5879 46.9128 90)
@@ -4872,7 +4872,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -4881,7 +4881,7 @@
   (symbol (lib_id "power:GND") (at 255.778 115.189 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c52fd5ef-741b-4d1f-b95f-1bd2f1d71524)
-    (property "Reference" "#PWR028" (at 255.778 121.539 0)
+    (property "Reference" "#PWR037" (at 255.778 121.539 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.778 119.507 0)
@@ -4897,7 +4897,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -4906,7 +4906,7 @@
   (symbol (lib_id "Device:C_Small") (at 100.076 80.9975 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c996f2b9-5fe3-4e50-be54-3b694a595a6f)
-    (property "Reference" "C2" (at 102.5398 79.7338 0)
+    (property "Reference" "C4" (at 102.5398 79.7338 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NC" (at 102.5398 82.2738 0)
@@ -4923,7 +4923,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -4932,7 +4932,7 @@
   (symbol (lib_id "power:GND") (at 154.0778 26.9661 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9c2db39-61fb-4a53-816c-219c78fa539e)
-    (property "Reference" "#PWR016" (at 160.4278 26.9661 0)
+    (property "Reference" "#PWR022" (at 160.4278 26.9661 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.6846 26.9661 90)
@@ -4948,7 +4948,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4957,7 +4957,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 214.884 105.791 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca13ce27-eeaa-462b-8eae-da7703c58c27)
-    (property "Reference" "U3" (at 215.773 98.552 0)
+    (property "Reference" "U4" (at 215.773 98.552 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM4562" (at 217.805 100.965 0)
@@ -4980,7 +4980,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -5015,7 +5015,7 @@
   (symbol (lib_id "power:GND") (at 62.484 52.959 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc886cd2-a03e-4099-b0cb-f951eef893f7)
-    (property "Reference" "#PWR03" (at 62.484 59.309 0)
+    (property "Reference" "#PWR04" (at 62.484 59.309 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.484 58.039 0)
@@ -5031,7 +5031,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -5040,7 +5040,7 @@
   (symbol (lib_id "power:GND") (at 84.5566 105.0259 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cceb5aa1-b6df-4421-95a8-8bce1b43dcaa)
-    (property "Reference" "#PWR04" (at 84.5566 111.3759 0)
+    (property "Reference" "#PWR010" (at 84.5566 111.3759 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 84.5566 110.1059 0)
@@ -5056,7 +5056,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5065,7 +5065,7 @@
   (symbol (lib_id "Device:C_Small") (at 244.094 146.939 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce0400b1-e415-4fb3-8def-971a74c121e7)
-    (property "Reference" "C5" (at 247.142 145.6753 0)
+    (property "Reference" "C7" (at 247.142 145.6753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NC" (at 247.142 148.2153 0)
@@ -5082,7 +5082,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5091,7 +5091,7 @@
   (symbol (lib_id "Device:R_Small") (at 242.443 61.341 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce858f28-3028-4c14-a82b-62e55342cd4d)
-    (property "Reference" "R23" (at 242.443 56.261 90)
+    (property "Reference" "R20" (at 242.443 56.261 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 242.443 58.801 90)
@@ -5108,7 +5108,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R23") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5117,7 +5117,7 @@
   (symbol (lib_id "Device:R_Small") (at 250.952 128.397 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ceb5857b-49d5-425b-a69e-543d98aebf91)
-    (property "Reference" "R20" (at 250.952 123.19 90)
+    (property "Reference" "R23" (at 250.952 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100-0.1%" (at 250.952 125.73 90)
@@ -5134,7 +5134,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R20") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5143,7 +5143,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 233.934 146.431 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d09c99d2-fd8c-4c51-b963-7e1af15f94c7)
-    (property "Reference" "U3" (at 233.172 145.161 0)
+    (property "Reference" "U4" (at 233.172 145.161 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM4562" (at 233.172 147.701 0)
@@ -5166,7 +5166,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "U3") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -5202,7 +5202,7 @@
   (symbol (lib_id "Device:LED") (at 124.8664 147.6502 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3114097-4d93-4f27-8024-d25b4a3ce6ff)
-    (property "Reference" "D4" (at 128.4224 147.9677 90)
+    (property "Reference" "D1" (at 128.4224 147.9677 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 128.4224 150.5077 90)
@@ -5219,7 +5219,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -5228,7 +5228,7 @@
   (symbol (lib_id "power:GND") (at 168.148 94.8659 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3be026a-a82b-498b-bc8f-8da112f4fb28)
-    (property "Reference" "#PWR015" (at 174.498 94.8659 0)
+    (property "Reference" "#PWR026" (at 174.498 94.8659 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.7548 94.8659 90)
@@ -5244,7 +5244,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5253,7 +5253,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 145.0114 59.8504 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5dbc512-ac29-4920-94fc-d6f21e1abb74)
-    (property "Reference" "J10" (at 149.6342 56.6754 90)
+    (property "Reference" "J9" (at 149.6342 56.6754 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 149.6342 59.2154 90)
@@ -5271,7 +5271,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J10") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -5280,7 +5280,7 @@
   (symbol (lib_id "Device:R_Small") (at 262.255 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d728dbb9-95d4-4850-9fec-a5084676d40f)
-    (property "Reference" "R25" (at 262.255 49.53 90)
+    (property "Reference" "R26" (at 262.255 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 262.255 52.07 90)
@@ -5297,7 +5297,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R25") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -5306,7 +5306,7 @@
   (symbol (lib_id "Device:R_Small") (at 165.608 94.8659 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8efc895-577f-4668-967d-ba2bf859a862)
-    (property "Reference" "R6" (at 167.513 96.6693 90)
+    (property "Reference" "R10" (at 167.513 96.6693 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 167.005 93.0879 90)
@@ -5323,7 +5323,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -5399,7 +5399,7 @@
   (symbol (lib_id "Device:R_Small") (at 271.907 46.482 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0170870-b511-421f-9614-92b968a542af)
-    (property "Reference" "R26" (at 273.431 45.212 0)
+    (property "Reference" "R27" (at 273.431 45.212 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 273.431 47.752 0)
@@ -5416,7 +5416,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R26") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -5451,7 +5451,7 @@
   (symbol (lib_id "Device:C_Small") (at 149.733 145.415 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5a2e888-2668-44d1-a138-276f7bcf2155)
-    (property "Reference" "C7" (at 153.035 144.1513 0)
+    (property "Reference" "C6" (at 153.035 144.1513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 153.035 146.6913 0)
@@ -5468,7 +5468,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -5477,7 +5477,7 @@
   (symbol (lib_id "Device:R_Small") (at 202.1106 66.7084 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e751716f-d1ff-48ac-b5c3-373ff3c38391)
-    (property "Reference" "R17" (at 204.0156 68.5118 90)
+    (property "Reference" "R16" (at 204.0156 68.5118 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4R8" (at 203.5076 64.9304 90)
@@ -5494,7 +5494,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -5503,7 +5503,7 @@
   (symbol (lib_id "power:GND") (at 204.6506 66.7084 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed9b80fa-dadc-43fd-b356-5c120db2e34b)
-    (property "Reference" "#PWR025" (at 211.0006 66.7084 0)
+    (property "Reference" "#PWR032" (at 211.0006 66.7084 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.2574 66.7084 90)
@@ -5519,7 +5519,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5528,7 +5528,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 119.0766 20.5145 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1a364df-5ccf-418d-90c7-2f0c141dd63f)
-    (property "Reference" "J4" (at 124.3866 17.3395 90)
+    (property "Reference" "J3" (at 124.3866 17.3395 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 124.3866 19.8795 90)
@@ -5546,7 +5546,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -5614,7 +5614,7 @@
   (symbol (lib_id "Switch:SW_DP3T") (at 57.2516 133.5532 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3c4f939-8eb1-4dcd-b259-3d2ff7a29461)
-    (property "Reference" "SW2" (at 57.2516 124.4092 0)
+    (property "Reference" "SW1" (at 57.2516 124.4092 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EG2315" (at 57.2516 126.9492 0)
@@ -5637,7 +5637,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "SW2") (unit 2)
+          (reference "SW1") (unit 2)
         )
       )
     )
@@ -5646,7 +5646,7 @@
   (symbol (lib_id "power:GND") (at 204.319 27.1693 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3d20a68-88e8-4df6-a4dd-e1ad5528db90)
-    (property "Reference" "#PWR023" (at 210.669 27.1693 0)
+    (property "Reference" "#PWR030" (at 210.669 27.1693 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.9258 27.1693 90)
@@ -5662,7 +5662,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5698,7 +5698,7 @@
   (symbol (lib_id "Device:R_Small") (at 207.264 121.031 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5210c13-4a8c-4b18-a7dd-a2cbd175e8d5)
-    (property "Reference" "R13" (at 209.042 119.761 0)
+    (property "Reference" "R17" (at 209.042 119.761 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 209.042 122.301 0)
@@ -5715,7 +5715,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "R13") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -5724,7 +5724,7 @@
   (symbol (lib_id "Switch:SW_DP3T") (at 112.3188 140.843 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f597fc09-2d97-4d67-abb0-cd7396e0a682)
-    (property "Reference" "SW2" (at 112.3188 132.4864 0)
+    (property "Reference" "SW1" (at 112.3188 132.4864 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EG2315" (at 112.3188 135.0264 0)
@@ -5747,7 +5747,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -5756,7 +5756,7 @@
   (symbol (lib_id "Device:LED") (at 253.873 42.164 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5a8df99-42bc-4286-adbd-6dcda16a109d)
-    (property "Reference" "D2" (at 257.175 42.4815 90)
+    (property "Reference" "D3" (at 257.175 42.4815 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GREEN" (at 257.175 45.0215 90)
@@ -5773,7 +5773,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5782,7 +5782,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 119.4082 60.0536 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f79f1f7b-8a48-4efb-95cd-71173cb1eed5)
-    (property "Reference" "J6" (at 124.031 56.8786 90)
+    (property "Reference" "J5" (at 124.031 56.8786 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20-1655" (at 124.031 59.4186 90)
@@ -5800,7 +5800,7 @@
     (instances
       (project "spider2"
         (path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
