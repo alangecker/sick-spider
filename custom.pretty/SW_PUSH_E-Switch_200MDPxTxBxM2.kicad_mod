@@ -1,0 +1,268 @@
+(footprint "SW_PUSH_E-Switch_200MDPxTxBxM2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
+	(tags "switch DPDT footswitch")
+	(property "Reference" "REF**"
+		(at 2.735 -5.37 0)
+		(layer "F.SilkS")
+		(uuid "0dd54888-ceb1-4189-9fda-99082be4ed8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PUSH_E-Switch_200MDPxTxBxM2"
+		(at 0 8.5 0)
+		(layer "F.Fab")
+		(uuid "3bc72cb2-dd18-4e04-8b40-4631ded0bb1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5436a2c-9734-4b34-875c-9d77e6f47189")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f340414-058e-4529-b4d1-14283eaf95d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53799ebb-b850-4ef2-8978-3bf630a920ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.065 -4.67)
+		(end -4.065 4.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d83c943d-925d-4bb1-adf1-509d09eb8025")
+	)
+	(fp_line
+		(start -4.065 -4.67)
+		(end 4.065 -4.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5eefcf2-5f6d-4c24-a8ae-877ed8fa68ac")
+	)
+	(fp_line
+		(start 4.065 4.57)
+		(end -4.065 4.57)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d798a8fa-ed78-4505-91fd-cd1791faad03")
+	)
+	(fp_line
+		(start 4.065 4.57)
+		(end 4.065 -4.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c77db10b-cca3-4025-b2fb-046508422ba1")
+	)
+	(fp_line
+		(start -4.215 -4.82)
+		(end 4.215 -4.82)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55615153-f742-4cbc-b698-f4ac60a29339")
+	)
+	(fp_line
+		(start -4.215 4.72)
+		(end -4.215 -4.82)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef67f4ad-40e7-473a-8f68-5ae50ef79092")
+	)
+	(fp_line
+		(start 4.215 -4.82)
+		(end 4.215 4.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f510af10-da2d-4c16-8991-e1a2faececb0")
+	)
+	(fp_line
+		(start 4.215 4.72)
+		(end -4.215 4.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70162138-37fb-4fe9-bef8-e9780a361908")
+	)
+	(fp_line
+		(start -9.465 -4.57)
+		(end 3.935 -4.57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79019833-ae8f-4042-982b-adc8152f759f")
+	)
+	(fp_line
+		(start -3.965 4.43)
+		(end -3.965 -4.57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78a34b95-e71a-492b-8444-183b2eac1740")
+	)
+	(fp_line
+		(start 3.935 4.47)
+		(end -3.965 4.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4fd93cc-04b7-4c7e-8be8-0c7e89ea299b")
+	)
+	(fp_line
+		(start 4.065 -4.57)
+		(end 4.065 4.57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5ea043d-1aaf-47ae-92b2-b2fe647bd44a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "14ffcb66-e922-4a76-bf16-f1d997d0e8e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "6c6da63f-3526-4a8e-b138-878a1774c48c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 -2.54)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf7a9ad5-7f44-4361-a98c-a852fa734677")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9c0bf1c-2e61-45ff-98d8-caa77d882f16")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "70221083-44b7-41e7-aa8f-d18fd4fcef8a")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 2.54)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05ff8a20-9cb3-4eaa-914b-dbc4d0e07f8d")
+	)
+	(pad "5" thru_hole circle
+		(at 0 2.54)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "203894ff-bc6a-43cc-9488-5146a304da48")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 2.54)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "424d00c2-799c-4130-9846-76a410bf8033")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_E-Switch_FS5700DP_DPDT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
