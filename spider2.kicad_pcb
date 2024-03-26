@@ -41090,6 +41090,17 @@
 			(uuid "456ca8a0-54cc-4a07-9519-c175fc12564d")
 		)
 	)
+	(gr_rect
+		(start 224.2566 101.0158)
+		(end 236.9693 98.5266)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "4ab462a4-eadb-44f1-9191-279c97ed6d76")
+	)
 	(gr_line
 		(start 227.33 59.055)
 		(end 228.092 57.658)
@@ -41554,6 +41565,31 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f1a1b471-fafb-42ca-a13a-9d426b6db408")
+	)
+	(gr_text "COATI\nAlis Spider\nchandi\nMatthias\n"
+		(at 236.8804 97.9932 -0)
+		(layer "B.SilkS")
+		(uuid "10af65cc-c865-4c4d-9bf4-08b32f14643c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "originally developed by\ninspired by\nnew board by\nwith great help of\nbuilt by\n"
+		(at 237.3122 99.5934 0)
+		(layer "B.SilkS")
+		(uuid "37a59e78-ac75-4200-8ab3-3a5f6785b630")
+		(effects
+			(font
+				(size 1 0.9)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
+		)
 	)
 	(gr_text "github.com/alangecker/spider2"
 		(at 231.477 94.35 0)
