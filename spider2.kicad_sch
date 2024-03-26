@@ -5904,6 +5904,12 @@
 		(uuid "33a5140b-2b68-4f23-95da-9646106f9aa2")
 	)
 	(junction
+		(at 29.21 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34045545-70b8-492a-b47d-35721e7a43d0")
+	)
+	(junction
 		(at 207.01 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5952,6 +5958,18 @@
 		(uuid "51fc96e5-49c9-4797-8240-bd8e8d4b58f1")
 	)
 	(junction
+		(at 27.5966 39.6327)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "555cdcbc-19c7-498d-b632-e86a1d7ac085")
+	)
+	(junction
+		(at 26.67 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59b331c1-2f10-434f-a6ca-447393b54358")
+	)
+	(junction
 		(at 171.45 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5992,12 +6010,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66e5f663-3849-4aba-9d49-e55fc0d47c88")
-	)
-	(junction
-		(at 27.813 44.704)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "673c35f1-2981-464a-87b4-92d93a2ae149")
 	)
 	(junction
 		(at 204.47 135.89)
@@ -6162,12 +6174,6 @@
 		(uuid "ad71f547-423e-4224-9017-da7ee9ba330a")
 	)
 	(junction
-		(at 27.5966 39.624)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b00ac617-c0e9-4183-a801-a94b5813cfff")
-	)
-	(junction
 		(at 138.43 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6304,12 +6310,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eafb84df-c392-45e0-b1c1-e6b9f0197242")
-	)
-	(junction
-		(at 28.702 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb717b61-d5af-4f77-8d2e-99b20e06c298")
 	)
 	(junction
 		(at 154.94 54.61)
@@ -6466,6 +6466,16 @@
 			(type default)
 		)
 		(uuid "04b097d8-ccc2-405d-86a2-40bba066c01e")
+	)
+	(wire
+		(pts
+			(xy 34.29 49.53) (xy 33.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0507b761-3470-409b-89a8-65787b6bb3a7")
 	)
 	(wire
 		(pts
@@ -6709,6 +6719,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 45.72) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166942d7-2b46-42cc-99df-896a4069eed2")
+	)
+	(wire
+		(pts
 			(xy 146.05 33.02) (xy 154.94 33.02)
 		)
 		(stroke
@@ -6739,7 +6759,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.5966 37.084) (xy 27.5966 39.624)
+			(xy 27.5966 38.1) (xy 27.5966 39.6327)
 		)
 		(stroke
 			(width 0)
@@ -6789,7 +6809,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.5537 32.004) (xy 27.5537 34.163)
+			(xy 27.5537 33.02) (xy 27.5537 34.163)
 		)
 		(stroke
 			(width 0)
@@ -6869,7 +6889,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.702 96.52) (xy 25.4 96.52)
+			(xy 29.21 96.52) (xy 25.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6959,7 +6979,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 93.98) (xy 28.702 93.98)
+			(xy 25.4 93.98) (xy 29.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7009,7 +7029,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.702 93.98) (xy 28.702 96.52)
+			(xy 29.21 93.98) (xy 29.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7026,16 +7046,6 @@
 			(type default)
 		)
 		(uuid "30e39a9f-6f0a-4004-82ef-a3024e1710f1")
-	)
-	(wire
-		(pts
-			(xy 28.702 100.584) (xy 28.702 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32152aca-7823-49a1-ae02-54b729520ea7")
 	)
 	(wire
 		(pts
@@ -7096,16 +7106,6 @@
 			(type default)
 		)
 		(uuid "35e5267e-89fe-4476-b520-4c23f329dc25")
-	)
-	(wire
-		(pts
-			(xy 27.813 48.768) (xy 27.813 44.704)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "360f5c8e-4480-4725-8614-1e98885396db")
 	)
 	(wire
 		(pts
@@ -7316,6 +7316,16 @@
 			(type default)
 		)
 		(uuid "3edff25b-5379-40cc-ae2d-6715e0ef87c1")
+	)
+	(wire
+		(pts
+			(xy 33.02 53.34) (xy 31.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8d3fcd-46c2-4c87-ae2a-af51ef6f69c0")
 	)
 	(wire
 		(pts
@@ -7769,6 +7779,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 102.87) (xy 24.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c9eb0d-286d-4c04-97da-31ceeb2332c8")
+	)
+	(wire
+		(pts
 			(xy 207.264 130.81) (xy 207.264 126.365)
 		)
 		(stroke
@@ -8119,6 +8139,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 43.18) (xy 26.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb95fd4-f88a-4085-91c3-39f8e3f175c1")
+	)
+	(wire
+		(pts
 			(xy 235.712 107.95) (xy 242.316 107.95)
 		)
 		(stroke
@@ -8129,7 +8159,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.511 37.084) (xy 27.5966 37.084)
+			(xy 24.13 38.1) (xy 27.5966 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8176,6 +8206,16 @@
 			(type default)
 		)
 		(uuid "7072e8c5-a269-4cec-a07e-0732db9acb15")
+	)
+	(wire
+		(pts
+			(xy 24.13 43.18) (xy 26.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b423ab-0481-48c3-974b-35745f18a971")
 	)
 	(wire
 		(pts
@@ -8439,6 +8479,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 45.72) (xy 26.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820d1c60-4c61-4af4-9acc-e24e2efc669b")
+	)
+	(wire
+		(pts
 			(xy 160.02 77.47) (xy 160.02 74.93)
 		)
 		(stroke
@@ -8546,16 +8596,6 @@
 			(type default)
 		)
 		(uuid "88560b3e-9fd4-441f-b98b-572642edd917")
-	)
-	(wire
-		(pts
-			(xy 27.813 42.164) (xy 27.813 44.704)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1a5deb-7b5e-4c98-87c4-bfeeb318a16d")
 	)
 	(wire
 		(pts
@@ -8859,13 +8899,23 @@
 	)
 	(wire
 		(pts
-			(xy 24.511 39.624) (xy 27.5966 39.624)
+			(xy 24.13 40.64) (xy 27.5966 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6bc9dda-8a39-4ddb-a478-2a7f15cb3589")
+	)
+	(wire
+		(pts
+			(xy 27.5966 40.64) (xy 27.5966 39.6327)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a764ee8e-a87a-4572-81ee-ef4e0d1ea32c")
 	)
 	(wire
 		(pts
@@ -9249,7 +9299,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.5537 34.163) (xy 27.5537 34.544)
+			(xy 27.5537 34.163) (xy 27.5537 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9269,7 +9319,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.511 32.004) (xy 27.5537 32.004)
+			(xy 24.13 33.02) (xy 27.5537 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9286,16 +9336,6 @@
 			(type default)
 		)
 		(uuid "c5b03f9f-9a14-491a-854f-deab5dc69fa9")
-	)
-	(wire
-		(pts
-			(xy 27.813 44.704) (xy 24.511 44.704)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5cbef7c-c732-4112-89dc-cfc4d304a09d")
 	)
 	(wire
 		(pts
@@ -9369,6 +9409,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 97.79) (xy 29.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97d53f4-33be-4308-bc36-bc0e97728237")
+	)
+	(wire
+		(pts
 			(xy 44.45 130.81) (xy 50.8 130.81)
 		)
 		(stroke
@@ -9416,6 +9466,16 @@
 			(type default)
 		)
 		(uuid "cc7fe169-cf2d-4007-aeb3-43150cd1d02c")
+	)
+	(wire
+		(pts
+			(xy 36.83 101.6) (xy 34.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaa1804-7c6c-4fa2-8452-7ecb8406e422")
 	)
 	(wire
 		(pts
@@ -9619,6 +9679,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 49.53) (xy 33.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbcf3adf-778e-404e-accd-5f9d53f19ad0")
+	)
+	(wire
+		(pts
 			(xy 107.95 148.59) (xy 107.95 144.78)
 		)
 		(stroke
@@ -9689,7 +9759,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.511 34.544) (xy 27.5537 34.544)
+			(xy 24.13 35.56) (xy 27.5537 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9769,16 +9839,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.5966 39.6327) (xy 27.5966 39.624)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e517b6-7603-4520-8ebb-a62740c6cb25")
-	)
-	(wire
-		(pts
 			(xy 256.54 133.35) (xy 257.81 133.35)
 		)
 		(stroke
@@ -9786,6 +9846,16 @@
 			(type default)
 		)
 		(uuid "e76fb34e-e8ee-4f1a-be43-2912f636a7b2")
+	)
+	(wire
+		(pts
+			(xy 21.59 54.61) (xy 21.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8de3089-019d-4b2b-a0dc-ab9fa0d3b0ec")
 	)
 	(wire
 		(pts
@@ -9886,16 +9956,6 @@
 			(type default)
 		)
 		(uuid "efbc94c9-089c-472f-88fd-e3797402b514")
-	)
-	(wire
-		(pts
-			(xy 24.511 42.164) (xy 27.813 42.164)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0713f0d-2706-4996-8366-489cd1fe3864")
 	)
 	(wire
 		(pts
@@ -10979,7 +11039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.813 48.768 0)
+		(at 21.59 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10988,7 +11048,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ec8ba57-57f3-41ca-8ac9-8e1f48fd14e9")
 		(property "Reference" "#PWR02"
-			(at 27.813 55.118 0)
+			(at 21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +11057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.813 53.4162 0)
+			(at 21.59 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.813 48.768 0)
+			(at 21.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +11074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.813 48.768 0)
+			(at 21.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.813 48.768 0)
+			(at 21.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,6 +11656,72 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6bc6cc-662b-4cfd-823b-8c83c1c142b0")
+		(property "Reference" "#PWR03"
+			(at 24.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c8ecac-6fa9-4983-a096-f98a95955421")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13244,6 +13370,78 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 26.67 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cb5cb9e-4208-4b26-8f6e-5776c301a704")
+		(property "Reference" "JP6"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "899b5ad2-473c-4ad8-b3bd-44f5ce33d63a")
+		)
+		(pin "2"
+			(uuid "0df70159-6b5c-470f-a1b1-87a33e0248b3")
+		)
+		(pin "1"
+			(uuid "2e32dc55-be92-43f7-b5c6-5b012de2865c")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -16760,72 +16958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 28.702 100.584 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9315b705-beac-4c19-9cab-4dfd752cddd9")
-		(property "Reference" "#PWR03"
-			(at 28.702 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 28.702 105.2322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 28.702 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 28.702 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 28.702 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2923fc5-056e-42cd-932d-d11d81e12222")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 176.53 50.8 0)
 		(unit 1)
@@ -17993,6 +18125,78 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 29.21 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "be0f518e-8a00-4e59-aedd-ea8a4f0659f9")
+		(property "Reference" "JP7"
+			(at 29.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 29.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 29.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d96dae8-9ed3-46be-9a8d-2c85fbd3f45c")
+		)
+		(pin "2"
+			(uuid "1d89fa6f-4bae-4897-81a9-4e96b94844ec")
+		)
+		(pin "1"
+			(uuid "2d0fa0b9-afa5-4927-9d5f-b801d3ee1523")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -19320,7 +19524,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NRJ6HH")
-		(at 19.431 39.624 0)
+		(at 19.05 40.64 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19329,7 +19533,7 @@
 		(dnp no)
 		(uuid "dd09b00b-0cbc-4b8c-a4a7-dcbb8d11eb22")
 		(property "Reference" "J1"
-			(at 17.526 50.546 0)
+			(at 17.145 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19337,7 +19541,7 @@
 			)
 		)
 		(property "Value" "NRJ6HH"
-			(at 17.526 48.006 0)
+			(at 17.145 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19345,7 +19549,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HH_Horizontal"
-			(at 19.431 39.624 0)
+			(at 19.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19354,7 +19558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hh"
-			(at 19.431 39.624 0)
+			(at 19.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19363,7 +19567,7 @@
 			)
 		)
 		(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose"
-			(at 19.431 39.624 0)
+			(at 19.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20506,6 +20710,16 @@
 			)
 			(uuid "d8262a5c-8bc9-497c-a90d-c3021a08664b")
 		)
+		(pin "BIAS" output
+			(at 36.83 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "266b6fee-4e68-4e95-9312-dee10dc738d7")
+		)
 		(instances
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
@@ -20573,6 +20787,16 @@
 				(justify right)
 			)
 			(uuid "ec2ff972-0fce-4a1e-b23e-179058b3e657")
+		)
+		(pin "BIAS" output
+			(at 34.29 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b20f10b-5e6d-40d9-b3e9-00a386b5774a")
 		)
 		(instances
 			(project "spider2"
