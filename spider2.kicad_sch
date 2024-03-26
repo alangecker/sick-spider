@@ -5916,6 +5916,12 @@
 		(uuid "3b14b4df-5c4b-442b-b925-9b33d7c18f62")
 	)
 	(junction
+		(at 195.58 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1d64f2-7b38-4366-8a4a-fea2de60a81e")
+	)
+	(junction
 		(at 116.84 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5926,6 +5932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43be8426-9186-4cb5-8f73-df2cdb9f23fb")
+	)
+	(junction
+		(at 198.12 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444de59a-265a-4e90-8c8e-31ecbdf2ed59")
 	)
 	(junction
 		(at 225.806 126.365)
@@ -6779,6 +6791,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 77.47) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfc292c-46fb-440d-a935-57c124e369ac")
+	)
+	(wire
+		(pts
 			(xy 115.57 176.53) (xy 116.84 176.53)
 		)
 		(stroke
@@ -6919,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 77.47) (xy 212.09 77.47)
+			(xy 194.31 77.47) (xy 198.12 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7689,7 +7711,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 76.2) (xy 207.01 76.2)
+			(xy 189.23 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7756,6 +7778,16 @@
 			(type default)
 		)
 		(uuid "57a2d9ea-a09e-47ce-951c-e30a2863cdf9")
+	)
+	(wire
+		(pts
+			(xy 195.58 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cf2eb8-394c-485d-ad1e-430893c301e2")
 	)
 	(wire
 		(pts
@@ -7966,6 +7998,16 @@
 			(type default)
 		)
 		(uuid "65252842-8433-4246-b4b2-2db389a388d2")
+	)
+	(wire
+		(pts
+			(xy 198.12 85.09) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668d6f07-f334-4899-b913-04f3f0a7f79c")
 	)
 	(wire
 		(pts
@@ -9379,6 +9421,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 77.47) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fee435-ddb2-49f8-87d0-fe871093ea3e")
+	)
+	(wire
+		(pts
 			(xy 207.264 126.365) (xy 215.392 126.365)
 		)
 		(stroke
@@ -9706,6 +9758,16 @@
 			(type default)
 		)
 		(uuid "dce7f249-6000-4a3a-997f-fa50e0d3ef49")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfa27ce-4052-469f-8b70-ebe9f88ccf0f")
 	)
 	(wire
 		(pts
@@ -10287,6 +10349,17 @@
 		)
 		(uuid "64c6ba6e-0d93-4b79-97bf-b97da3aeb157")
 	)
+	(text "for load\nsimulations"
+		(exclude_from_sim no)
+		(at 204.724 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7109e2e4-eebd-4d4a-87f1-0cc4b4f87cf0")
+	)
 	(text "Battery status indicator"
 		(exclude_from_sim no)
 		(at 225.552 31.242 0)
@@ -10541,6 +10614,76 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 198.12 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084fc28b-8c6f-4f58-b4fd-6cabdfab9f5b")
+		(property "Reference" "R46"
+			(at 200.66 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NC"
+			(at 200.66 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P7.62mm_Vertical"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 198.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f42b6a7-bc66-4676-809d-994d8282ac45")
+		)
+		(pin "1"
+			(uuid "26035002-182d-404f-86c5-ff73127aba52")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11735,7 +11878,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b6cc192-d396-42a8-9448-f7a399548017")
 		(property "Reference" "#PWR014"
 			(at 116.84 44.45 0)
@@ -11747,7 +11889,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 43.18 0)
+			(at 113.03 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14676,20 +14818,19 @@
 		(dnp no)
 		(uuid "5b6fef87-fc9f-4bac-892c-d4cd257ed5c4")
 		(property "Reference" "FB1"
-			(at 129.54 43.434 90)
+			(at 129.286 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
-			(at 129.5019 43.18 90)
+		(property "Value" "3A, >100 Ohm@100MHz"
+			(at 130.556 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC"
@@ -16836,7 +16977,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "3A, >100 Ohm@100MHz"
 			(at 129.5019 55.88 90)
 			(effects
 				(font
@@ -17530,7 +17671,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "3A, >100 Ohm@100MHz"
 			(at 133.3119 97.79 90)
 			(effects
 				(font
@@ -19236,7 +19377,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "3A, >100 Ohm@100MHz"
 			(at 133.3119 85.09 90)
 			(effects
 				(font
