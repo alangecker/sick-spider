@@ -58,27 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|159397501|64830001|7f483dd5-8c32-4c75-be72-5e0d91eaff9b|89d9e6aa-3475-4524-92b8-4990364d2335",
-        "courtyards_overlap|180794339|36925001|aa561470-2768-43b4-983b-e6ff5f9b011b|fad9e4a3-3805-4759-b70b-594efe5f62b4",
-        "courtyards_overlap|216945001|64720001|0d255685-662e-4eb2-8344-18795378b6ec|e42d6da6-b801-400a-88df-2473d6f510b6",
-        "shorting_items|138994600|37691600|6ee4d11e-b9db-4b75-a348-60d15942cd8e|5e90ae0b-ca7d-4df2-9310-b44c81c479eb",
-        "shorting_items|139697544|35994544|6ee4d11e-b9db-4b75-a348-60d15942cd8e|3e8b3a91-c5bb-4b0b-bf9b-219ea454bf70",
-        "shorting_items|139697544|39388656|6ee4d11e-b9db-4b75-a348-60d15942cd8e|a1a14f31-eb16-47e5-8a3c-64e1c51b3761",
-        "shorting_items|141394600|35291600|6ee4d11e-b9db-4b75-a348-60d15942cd8e|fc225da8-e107-4505-a585-1ca46dbc4cc1",
-        "shorting_items|142240000|99990000|6b1c0e22-4717-418b-a0bd-43106aa275ba|3a397ea7-c961-4c77-9084-66a332ad3351",
-        "shorting_items|143937056|95892944|6b1c0e22-4717-418b-a0bd-43106aa275ba|6f4f79a6-3639-48ea-8ea0-bcd7f79d3ffb",
-        "shorting_items|143937056|99287056|6b1c0e22-4717-418b-a0bd-43106aa275ba|bad0aa71-4daa-4451-ad60-dc917deb5511",
-        "shorting_items|144640000|97590000|6b1c0e22-4717-418b-a0bd-43106aa275ba|a691f3d0-1404-448a-98f0-6bde88f9eaa9",
-        "shorting_items|230648714|73500296|c1772fa0-692d-45f7-90b6-00e42dc42429|7046bd4b-576a-4fd9-8087-fa197cd7017a",
-        "shorting_items|232345770|72797352|c1772fa0-692d-45f7-90b6-00e42dc42429|c17235aa-070c-42fc-a09b-221a93ef3ce5",
-        "shorting_items|233048714|71100296|c1772fa0-692d-45f7-90b6-00e42dc42429|a9e6367a-d45c-48a0-a4af-289b95675817",
-        "shorting_items|250419532|38502461|176cfd5d-5e7e-40cd-bc70-9dda230a881f|daf4d2b9-498e-43fa-a43e-e2d4c7ebcc6a",
-        "shorting_items|252116588|34405405|176cfd5d-5e7e-40cd-bc70-9dda230a881f|5e1f1ccf-a23d-407c-bb1c-116bd9908565",
-        "shorting_items|252116588|37799517|176cfd5d-5e7e-40cd-bc70-9dda230a881f|3347572d-9cfd-4655-aa01-45a97d41fee9",
-        "shorting_items|252819532|36102461|176cfd5d-5e7e-40cd-bc70-9dda230a881f|378b9928-99df-4624-885b-ef53e843ad39",
-        "solder_mask_bridge|172200000|45200000|75e53723-c98e-450b-bf3d-45c7100f2d12|7bc1d1b7-03cf-40f1-a8e2-47c3ee18c02c"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -602,7 +582,7 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
