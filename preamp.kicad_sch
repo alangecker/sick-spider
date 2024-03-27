@@ -906,7 +906,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3.3VA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -923,7 +923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3.3VA"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -949,7 +949,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -967,7 +967,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3.3VA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1005,7 +1005,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3.3VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1879,7 +1879,7 @@
 	)
 	(rectangle
 		(start 79.629 67.183)
-		(end 101.346 89.154)
+		(end 102.87 88.9)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2013,6 +2013,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48072e89-7049-4d59-9827-6b1df79a5003")
 		)
@@ -2122,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Value" "200MDP1T2B2M2QE"
+		(property "Value" "200MDP1T2B2M2"
 			(at 112.522 72.39 0)
 			(effects
 				(font
@@ -2157,6 +2184,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 112.522 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 112.522 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 112.522 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "eb21467c-b918-4797-be78-2d8111fe4905")
 		)
@@ -2183,6 +2237,76 @@
 				)
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 180.34 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "306f0653-49cf-4833-89e0-0c02d8337166")
+		(property "Reference" "#PWR056"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 180.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d24d4548-d5f2-44fb-9928-325d3f0198d1")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/ef17f1e3-6d4b-48c3-ada3-a0af083f4146"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2382,6 +2506,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 250.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 250.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 250.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "432b79ed-471c-4d3d-b455-d6e683d37c10")
 		)
@@ -2456,6 +2607,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 84.963 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 84.963 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 84.963 83.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bab3fb9-1934-4e12-b29d-cf22f6f29feb")
 		)
@@ -2520,6 +2698,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 151.13 62.23 0)
 			(effects
 				(font
@@ -2601,6 +2806,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 180.213 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.213 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 180.213 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "ca8412b7-e506-42b7-97b0-884ebe7a1986")
 		)
@@ -2662,7 +2894,7 @@
 				)
 			)
 		)
-		(property "Value" "200MDP1T2B2M2QE"
+		(property "Value" "200MDP1T2B2M2"
 			(at 112.141 97.917 0)
 			(effects
 				(font
@@ -2689,6 +2921,33 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 112.649 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 112.649 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 112.649 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 112.649 90.17 0)
 			(effects
 				(font
@@ -2746,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k-0.1%"
+		(property "Value" "4.7k-0.1%"
 			(at 140.589 87.63 90)
 			(effects
 				(font
@@ -2773,6 +3032,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 140.589 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.589 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.589 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 140.589 90.17 0)
 			(effects
 				(font
@@ -2818,7 +3104,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k-0.1%"
+		(property "Value" "4.7k-0.1%"
 			(at 140.589 77.47 90)
 			(effects
 				(font
@@ -2845,6 +3131,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 140.589 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.589 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.589 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 140.589 80.518 0)
 			(effects
 				(font
@@ -2880,10 +3193,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9767e5ec-0643-443f-aa8b-cf337c97ca40")
 		(property "Reference" "R30"
-			(at 95.25 78.613 0)
+			(at 93.98 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,8 +3203,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330"
-			(at 95.25 81.153 0)
+		(property "Value" "330-1%"
+			(at 93.726 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,6 +3231,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 92.583 79.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 92.583 79.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 92.583 79.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.583 79.883 0)
 			(effects
 				(font
@@ -3001,6 +3340,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db57363b-9842-40c6-b6d2-3a60067c4909")
 		)
@@ -3072,6 +3438,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 84.963 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 84.963 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 84.963 76.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19d3cc5a-8548-4766-9ef7-8ad20373d499")
 		)
@@ -3135,6 +3528,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 131.699 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 131.699 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 131.699 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 131.699 90.17 0)
 			(effects
 				(font
@@ -3215,6 +3635,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 131.699 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 131.699 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 131.699 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a74d7d7-6caa-4e69-ae9f-47ccf2ef4653")
 		)
@@ -3229,76 +3676,6 @@
 				)
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4603a92-1581-4d7f-8670-375a10b3267a")
-		(property "Reference" "#PWR040"
-			(at 180.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 180.34 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7aac626-da27-49ff-9bc0-acc55db1099d")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/ef17f1e3-6d4b-48c3-ada3-a0af083f4146"
-					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3420,6 +3797,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.421 83.439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 66.421 83.439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 66.421 83.439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 66.421 83.439 0)
 			(effects
 				(font
@@ -3572,6 +3976,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "940b04b7-8a23-4b27-97cf-65f34a20f656")
 		)
@@ -3636,6 +4067,33 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 227.33 87.63 0)
 			(effects
 				(font
