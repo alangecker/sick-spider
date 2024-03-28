@@ -15131,7 +15131,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63203WU"
+		(property "Value" "AP63203"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -15788,7 +15788,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH, >2A, <100mOhm"
+		(property "Value" "4.7uH, >2A"
 			(at 127 132.08 90)
 			(effects
 				(font
