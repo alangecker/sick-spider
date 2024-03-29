@@ -6341,6 +6341,12 @@
 		(uuid "59b331c1-2f10-434f-a6ca-447393b54358")
 	)
 	(junction
+		(at 158.75 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be4e9c0-3526-4fc9-ab1a-6c01e4ba7a55")
+	)
+	(junction
 		(at 171.45 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6405,12 +6411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "701f8b9d-67c2-49f2-b81f-3a436ba5cd72")
-	)
-	(junction
-		(at 158.75 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "750a09bf-e0ae-422a-b748-f8f543882667")
 	)
 	(junction
 		(at 116.84 38.1)
@@ -7294,6 +7294,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226cf531-450a-4be3-9e5a-046abf065078")
+	)
+	(wire
+		(pts
 			(xy 124.46 82.55) (xy 124.46 46.99)
 		)
 		(stroke
@@ -8094,6 +8104,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 107.95) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f672313-9a56-4fd9-8e2b-f4a229c2bc5d")
+	)
+	(wire
+		(pts
 			(xy 53.34 137.16) (xy 55.88 137.16)
 		)
 		(stroke
@@ -8614,16 +8634,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 102.87) (xy 158.75 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702247b9-55eb-4701-9933-7116135bc4ee")
-	)
-	(wire
-		(pts
 			(xy 226.06 105.791) (xy 222.504 105.791)
 		)
 		(stroke
@@ -9074,6 +9084,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 107.95) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0b3ca8-2794-4abe-8a07-fc78c2e92c98")
+	)
+	(wire
+		(pts
 			(xy 236.22 42.926) (xy 236.22 36.83)
 		)
 		(stroke
@@ -9151,16 +9171,6 @@
 			(type default)
 		)
 		(uuid "90d27b22-943e-482a-8ec8-3f356d7bb769")
-	)
-	(wire
-		(pts
-			(xy 158.75 102.87) (xy 158.75 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911c50fd-114e-40c1-83ec-eac65078d084")
 	)
 	(wire
 		(pts
@@ -9311,6 +9321,16 @@
 			(type default)
 		)
 		(uuid "9e971690-1220-480d-8947-905fc35173f9")
+	)
+	(wire
+		(pts
+			(xy 176.53 95.25) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f15fc87-8867-4f93-ba98-26bf09ec2bbc")
 	)
 	(wire
 		(pts
@@ -9581,6 +9601,16 @@
 			(type default)
 		)
 		(uuid "b583e641-8cfb-4286-9dbb-a27ddc23c65f")
+	)
+	(wire
+		(pts
+			(xy 176.53 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bc1f73-604d-4bf4-9133-b220f7e38c8d")
 	)
 	(wire
 		(pts
@@ -10444,17 +10474,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 102.87) (xy 176.53 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebabeb38-e7a5-4470-8880-e781f51af478")
-	)
-	(wire
-		(pts
-			(xy 143.51 101.6) (xy 143.51 102.87)
+			(xy 143.51 101.6) (xy 143.51 107.95)
 		)
 		(stroke
 			(width 0)
@@ -10701,16 +10721,6 @@
 			(type default)
 		)
 		(uuid "fb9d8a4f-5b5d-46a8-b408-a479d0c6b9bc")
-	)
-	(wire
-		(pts
-			(xy 158.75 102.87) (xy 176.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc17d976-f5aa-4cc1-bbf5-84ac44bea927")
 	)
 	(wire
 		(pts
@@ -10981,7 +10991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 157.48 64.77 0)
 			(effects
 				(font
@@ -11407,7 +11417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 157.48 21.59 0)
 			(effects
 				(font
@@ -12060,7 +12070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 209.55 21.59 0)
 			(effects
 				(font
@@ -13490,7 +13500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -14599,103 +14609,6 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 176.53 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37cd5102-52e8-472f-be69-da3aada16001")
-		(property "Reference" "R41"
-			(at 179.07 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15"
-			(at 179.07 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 176.53 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d20ffe18-c00d-49d6-8ccc-71e5428094bc")
-		)
-		(pin "1"
-			(uuid "5b34c596-d637-4e82-b118-9c1f80c053c5")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -18044,7 +17957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -18241,7 +18154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -18751,7 +18664,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.75 97.79 0)
+		(at 149.86 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18760,25 +18673,23 @@
 		(fields_autoplaced yes)
 		(uuid "7e315935-db4e-4d3c-bf53-7e979a6f05f7")
 		(property "Reference" "R16"
-			(at 161.29 96.5199 0)
+			(at 149.86 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "15"
-			(at 161.29 99.0599 0)
+			(at 149.86 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 158.75 97.79 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18787,7 +18698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 97.79 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18796,7 +18707,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 158.75 97.79 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18805,7 +18716,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 158.75 97.79 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18814,7 +18725,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 158.75 97.79 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18823,7 +18734,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 158.75 97.79 0)
+			(at 149.86 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19069,7 +18980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 173.99 21.59 0)
 			(effects
 				(font
@@ -21637,7 +21548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 209.55 64.77 0)
 			(effects
 				(font
@@ -21902,7 +21813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -23994,7 +23905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 209.55 43.18 0)
 			(effects
 				(font
@@ -24094,7 +24005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 173.99 43.18 0)
 			(effects
 				(font
@@ -24421,7 +24332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 191.77 21.59 0)
 			(effects
 				(font
@@ -24943,7 +24854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -25109,7 +25020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_PJ359"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
 			(at 173.99 64.77 0)
 			(effects
 				(font
