@@ -24,5 +24,12 @@ First prototype in development. Parts are ordered probably built end of April
 - There should be no noticeable noise at all :) (when used with an XLR to stereo jack microphone cable for "balanced" audio)
 - A few components are more difficult to solder ("SMD"), as many modern chips are no longer available in large size ("trough hole")
 
+# Documents
+|-------------------|-------------------|
+| Revision          | Documents
+|-------------------|-------------------|
+| spider2 prototype | [BOM & Boardview](https://alangecker.github.io/spider2/output/2.0-proto/spider2-ibom.html), [Schematic](https://alangecker.github.io/spider2/output/2.0-proto/spider2-schematic.pdf)
+
+
 # License
 GPLv3 (=open source)
