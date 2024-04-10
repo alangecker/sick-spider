@@ -5448,12 +5448,6 @@
 		(uuid "1f8be7fb-c901-4025-96db-671eb2a80083")
 	)
 	(junction
-		(at 87.63 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2329e993-bfb4-4093-af3f-b6ba75c9ef27")
-	)
-	(junction
 		(at 151.13 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5566,12 +5560,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d550958-4150-40e4-a274-12e2876462d0")
-	)
-	(junction
-		(at 87.63 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e40618a-6583-4da8-ada8-8b06ec2a14ae")
 	)
 	(junction
 		(at 154.94 76.2)
@@ -5790,12 +5778,6 @@
 		(uuid "b178abe1-8fa1-4bf1-9607-a94e2accb53e")
 	)
 	(junction
-		(at 154.94 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b816c22a-2a6d-49db-b279-a907f2fdd2cb")
-	)
-	(junction
 		(at 189.23 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5878,12 +5860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3902240-dcd5-4bca-9577-8a34ebe5ac4e")
-	)
-	(junction
-		(at 157.48 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6d7a319-3056-4127-8b29-d98ff7f0667c")
 	)
 	(junction
 		(at 256.54 135.89)
@@ -6637,16 +6613,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 143.51) (xy 87.63 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca0d95b-bb6b-4233-ad37-2fbbef5171df")
-	)
-	(wire
-		(pts
 			(xy 92.71 52.07) (xy 92.71 53.34)
 		)
 		(stroke
@@ -6717,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 134.62) (xy 157.48 134.62)
+			(xy 151.13 134.62) (xy 157.48 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6744,16 +6710,6 @@
 			(type default)
 		)
 		(uuid "33eb9fd2-7346-4339-85a7-3f2c4bb9d2d0")
-	)
-	(wire
-		(pts
-			(xy 87.63 149.86) (xy 96.52 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3435cda1-05bc-4bba-857b-389da58e2396")
 	)
 	(wire
 		(pts
@@ -7064,16 +7020,6 @@
 			(type default)
 		)
 		(uuid "44eeea4f-b82a-4ee4-a41f-47ae0b3fdf59")
-	)
-	(wire
-		(pts
-			(xy 165.1 143.51) (xy 165.1 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468dfb22-5d40-4c6d-ac2c-e66aa99ff0b0")
 	)
 	(wire
 		(pts
@@ -7447,7 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 143.51) (xy 87.63 144.78)
+			(xy 87.63 134.62) (xy 87.63 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7947,16 +7893,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 134.62) (xy 154.94 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1023e8-6d2e-44b6-b132-54c8d5c62e4d")
-	)
-	(wire
-		(pts
 			(xy 147.32 77.47) (xy 147.32 59.69)
 		)
 		(stroke
@@ -8037,16 +7973,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 144.78) (xy 96.52 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80dcade5-be87-4320-90d4-238c586b216c")
-	)
-	(wire
-		(pts
 			(xy 147.32 88.9) (xy 138.43 88.9)
 		)
 		(stroke
@@ -8124,16 +8050,6 @@
 			(type default)
 		)
 		(uuid "83e876ee-d402-445a-8e0e-4ec178007bf9")
-	)
-	(wire
-		(pts
-			(xy 165.1 134.62) (xy 165.1 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857b2a04-e24b-4f55-9857-275ab09cba1a")
 	)
 	(wire
 		(pts
@@ -8294,16 +8210,6 @@
 			(type default)
 		)
 		(uuid "90d27b22-943e-482a-8ec8-3f356d7bb769")
-	)
-	(wire
-		(pts
-			(xy 87.63 134.62) (xy 87.63 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "912c4a83-46c5-4db6-a346-93e062dc8896")
 	)
 	(wire
 		(pts
@@ -8664,16 +8570,6 @@
 			(type default)
 		)
 		(uuid "b3a7d7ef-3a17-48eb-a3b1-d52c4057b9c1")
-	)
-	(wire
-		(pts
-			(xy 165.1 134.62) (xy 157.48 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b583e641-8cfb-4286-9dbb-a27ddc23c65f")
 	)
 	(wire
 		(pts
@@ -9247,16 +9143,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 134.62) (xy 154.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d938aa76-df0e-4676-ae19-12f0ce39db03")
-	)
-	(wire
-		(pts
 			(xy 99.06 92.71) (xy 99.06 95.25)
 		)
 		(stroke
@@ -9614,16 +9500,6 @@
 			(type default)
 		)
 		(uuid "f6c6d542-58ce-4f83-86d1-df90552b40d2")
-	)
-	(wire
-		(pts
-			(xy 154.94 147.32) (xy 154.94 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e2e569-5f2e-410f-88ce-da5e295b718d")
 	)
 	(wire
 		(pts
@@ -10412,7 +10288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 92.71 58.42 0)
 			(effects
 				(font
@@ -10672,7 +10548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 138.43 97.79 0)
 			(effects
 				(font
@@ -12007,7 +11883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 137.16 140.97 0)
 			(effects
 				(font
@@ -12894,72 +12770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 154.94 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fc83a82-4290-4d64-8b2e-37d036f2b3e3")
-		(property "Reference" "#PWR053"
-			(at 154.94 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0782bc5-6f87-4777-b5fc-f5a057e4c413")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 77.47 129.54 0)
 		(unit 1)
@@ -13147,7 +12957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 97.79 34.29 0)
 			(effects
 				(font
@@ -13928,7 +13738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 87.63 147.32 0)
 			(effects
 				(font
@@ -15181,7 +14991,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -15533,7 +15343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -17026,7 +16836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -17616,7 +17426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 146.05 140.97 0)
 			(effects
 				(font
@@ -17848,102 +17658,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 96.52 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8c95e863-8146-416f-95c0-593a61455bc2")
-		(property "Reference" "C33"
-			(at 99.06 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "alt"
-			(at 99.314 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 96.52 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cfdb49c-9f00-45c8-b88d-be7e824f3094")
-		)
-		(pin "2"
-			(uuid "91a273a7-51aa-45dc-ad12-9c0e17904def")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 138.43 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17970,7 +17684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -20569,102 +20283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 165.1 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "cf4623f2-9218-4cba-9b16-3be1d39f2af9")
-		(property "Reference" "C36"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "alt"
-			(at 167.894 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "973294db-5d48-4083-9e87-a392dcfae661")
-		)
-		(pin "2"
-			(uuid "365af8ba-1962-4ab1-a02f-0fd7cdd4d8e8")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 233.68 146.05 0)
 		(unit 3)
@@ -21468,102 +21086,6 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 154.94 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "dee77f96-db2f-493f-b444-1551d8f11229")
-		(property "Reference" "C35"
-			(at 157.48 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "alt"
-			(at 157.734 141.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2163bfe4-85a4-4361-bc26-190f91af3f3a")
-		)
-		(pin "2"
-			(uuid "7ab3b9b0-563b-433f-acd3-ffb506235ef5")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -22453,72 +21975,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea442d82-db61-41a3-8af4-7b437f392e31")
-		(property "Reference" "#PWR055"
-			(at 165.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d43fd635-9845-4953-a8e1-8c79318eda39")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 254 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22610,7 +22066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 116.84 34.29 0)
 			(effects
 				(font
