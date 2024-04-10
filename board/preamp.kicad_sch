@@ -884,12 +884,6 @@
 		)
 	)
 	(junction
-		(at 228.6 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "021e45d6-598c-416d-967f-ff72aaaa0429")
-	)
-	(junction
 		(at 113.03 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -902,16 +896,22 @@
 		(uuid "337a3bb1-7e1e-488f-b938-9375ea576745")
 	)
 	(junction
+		(at 241.3 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d146d9-40dc-46b9-a5ba-51b0147eceac")
+	)
+	(junction
+		(at 241.3 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab09972-0a8c-43a3-8061-aa3dedfa1b88")
+	)
+	(junction
 		(at 113.03 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "867a486f-bfaa-4696-848d-773f1c8b55b7")
-	)
-	(junction
-		(at 228.6 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf13daa3-a2da-4825-a5e9-29f7c576819a")
 	)
 	(no_connect
 		(at 256.54 102.87)
@@ -1003,13 +1003,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 228.6 96.52)
+			(xy 241.3 99.06) (xy 241.3 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "43710168-3ffa-4146-8476-2cf810684337")
+	)
+	(wire
+		(pts
+			(xy 241.3 87.63) (xy 256.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443d948f-71cf-4b1c-be6d-77e95e18ee4e")
 	)
 	(wire
 		(pts
@@ -1033,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 87.63) (xy 228.6 91.44)
+			(xy 241.3 87.63) (xy 241.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1053,23 +1063,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 87.63) (xy 228.6 87.63)
+			(xy 224.79 87.63) (xy 241.3 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65463ada-aec0-4357-a40c-4edad5c80983")
-	)
-	(wire
-		(pts
-			(xy 228.6 87.63) (xy 256.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b42e90-dce8-40c7-906d-f897252e899d")
 	)
 	(wire
 		(pts
@@ -1120,6 +1120,16 @@
 			(type default)
 		)
 		(uuid "75e1e0cd-3fc3-4e80-80d0-e27b90e71058")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.06) (xy 252.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ce8388-33e0-4478-a08f-79eb06f41c98")
 	)
 	(wire
 		(pts
@@ -1213,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 228.6 99.06)
+			(xy 207.01 99.06) (xy 241.3 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1351,19 +1361,9 @@
 		)
 		(uuid "fe67feea-bf6e-4269-b8f4-5d1c3b8a2da9")
 	)
-	(wire
-		(pts
-			(xy 228.6 99.06) (xy 252.73 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "febd1a36-c38e-413f-8073-b5d56fc19127")
-	)
-	(text "for later gain adjustments"
+	(text "limit gain"
 		(exclude_from_sim no)
-		(at 237.236 84.582 0)
+		(at 229.87 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1371,9 +1371,9 @@
 		)
 		(uuid "814345b8-0b1e-4f24-8e65-13f8aa93e48a")
 	)
-	(text "for potential poti\ndirection inversion"
+	(text "poti and R combined results in an\neffective ~100k inverse log poti"
 		(exclude_from_sim no)
-		(at 267.716 92.202 0)
+		(at 249.936 107.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,16 +1419,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 228.6 93.98 0)
+		(at 241.3 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "056163f0-d05d-46cd-ab16-aa0a42f13d4a")
 		(property "Reference" "R26"
-			(at 231.14 92.7099 0)
+			(at 243.84 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,8 +1436,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NC"
-			(at 231.14 95.2499 0)
+		(property "Value" "120k"
+			(at 243.84 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 228.6 93.98 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +1455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 93.98 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 228.6 93.98 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 228.6 93.98 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 228.6 93.98 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 228.6 93.98 0)
+			(at 241.3 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTV09A-4025F-B104"
+		(property "Value" "500k, linear"
 			(at 258.7244 100.33 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "150"
 			(at 222.25 85.09 90)
 			(effects
 				(font
