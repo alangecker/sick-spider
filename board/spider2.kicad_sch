@@ -11471,7 +11471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n/20V"
+		(property "Value" "100n"
 			(at 124.46 139.7062 0)
 			(effects
 				(font
@@ -12615,7 +12615,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
+		(property "Value" "Yellow"
 			(at 160.02 175.006 90)
 			(effects
 				(font
@@ -13558,7 +13558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u/16V"
+		(property "Value" "22u"
 			(at 90.424 147.828 0)
 			(effects
 				(font
@@ -14738,7 +14738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Red, Green"
+		(property "Value" "Red/Green"
 			(at 279.908 44.704 90)
 			(effects
 				(font
