@@ -2540,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "10n"
 			(at 115.57 86.36 0)
 			(effects
 				(font
