@@ -1747,7 +1747,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500k, linear"
+		(property "Value" "PTV09A-40xxF-B504"
 			(at 258.7244 100.33 0)
 			(effects
 				(font
