@@ -9524,7 +9524,7 @@
 	)
 	(text "3.3V/2\nCMV"
 		(exclude_from_sim no)
-		(at 220.218 158.242 0)
+		(at 198.374 125.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10067,7 +10067,7 @@
 				)
 			)
 		)
-		(property "Value" "330-1%"
+		(property "Value" "220-1%"
 			(at 256.54 128.651 90)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Value" "330-1%"
+		(property "Value" "220-1%"
 			(at 256.54 117.856 90)
 			(effects
 				(font
@@ -14212,7 +14212,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH, >2A"
+		(property "Value" "6.8uH, >2A"
 			(at 127 132.08 90)
 			(effects
 				(font
@@ -15001,7 +15001,7 @@
 				)
 			)
 		)
-		(property "Value" "330-1%"
+		(property "Value" "220-1%"
 			(at 256.54 138.176 90)
 			(effects
 				(font
@@ -17409,7 +17409,7 @@
 				)
 			)
 		)
-		(property "Value" "330-1%"
+		(property "Value" "220-1%"
 			(at 256.54 109.22 90)
 			(effects
 				(font

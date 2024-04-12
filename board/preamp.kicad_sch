@@ -2710,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 222.25 85.09 90)
 			(effects
 				(font
