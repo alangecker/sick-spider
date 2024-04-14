@@ -5526,12 +5526,6 @@
 		(uuid "89fd1d69-d97f-43dc-8eff-e436d1e70344")
 	)
 	(junction
-		(at 60.96 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f058954-ede2-430d-b853-a3751e182117")
-	)
-	(junction
 		(at 125.73 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5566,12 +5560,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5c2f635-a970-4205-bdd5-08bccbe0f4e3")
-	)
-	(junction
-		(at 58.42 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a87c400f-0702-4bde-93ed-5191b5289af5")
 	)
 	(junction
 		(at 146.05 54.61)
@@ -5785,15 +5773,6 @@
 		(at 41.91 170.18)
 		(uuid "c56597e0-6132-431a-becd-25a7948c8f9b")
 	)
-	(bus_entry
-		(at 160.02 152.4)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d41bec-c81b-4f7d-a114-ee487c783c1e")
-	)
 	(wire
 		(pts
 			(xy 154.94 49.53) (xy 157.48 49.53)
@@ -5966,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.499 40.64) (xy 58.42 40.64)
+			(xy 55.499 40.64) (xy 62.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6093,16 +6072,6 @@
 			(type default)
 		)
 		(uuid "15361ed5-a840-4649-8646-4659f047b8c9")
-	)
-	(wire
-		(pts
-			(xy 60.96 91.44) (xy 62.23 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15955e0b-f38b-40b1-8255-c2bb94f53c84")
 	)
 	(wire
 		(pts
@@ -6296,16 +6265,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 30.48) (xy 58.42 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a0da83-960a-48bb-bcbf-eed5d10a94d5")
-	)
-	(wire
-		(pts
 			(xy 270.51 50.8) (xy 265.43 50.8)
 		)
 		(stroke
@@ -6436,7 +6395,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.039 91.44) (xy 60.96 91.44)
+			(xy 58.039 91.44) (xy 62.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7546,6 +7505,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 40.64) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731bf126-0e67-435e-921f-82bbb7e0d7c2")
+	)
+	(wire
+		(pts
 			(xy 189.23 27.94) (xy 191.77 27.94)
 		)
 		(stroke
@@ -7723,16 +7692,6 @@
 			(type default)
 		)
 		(uuid "7e0eb745-5689-466b-9144-822c008b652a")
-	)
-	(wire
-		(pts
-			(xy 58.42 40.64) (xy 62.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e8f012f-9462-47a7-8f5e-a14af4ab438b")
 	)
 	(wire
 		(pts
@@ -8963,16 +8922,6 @@
 			(type default)
 		)
 		(uuid "dcbe64d9-8e24-4d08-8444-f0b7df76f44d")
-	)
-	(wire
-		(pts
-			(xy 60.96 82.55) (xy 60.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce7f249-6000-4a3a-997f-fa50e0d3ef49")
 	)
 	(wire
 		(pts
@@ -11293,100 +11242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e883352-ae3d-4563-be2f-5d34f9de36d9")
-		(property "Reference" "TP6"
-			(at 60.96 25.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Int."
-			(at 60.96 28.4479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 58.42 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 58.42 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 58.42 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91b1ef6b-a6e4-4edd-873d-1e78f23415cd")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 137.16 147.32 0)
 		(unit 1)
@@ -12850,100 +12705,6 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39fec7ce-5a24-45d3-b327-c53516da0f01")
-		(property "Reference" "TP5"
-			(at 63.5 77.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Floor"
-			(at 63.5 80.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_3.0x3.0mm_Drill1.5mm"
-			(at 66.04 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3573896f-7820-461f-8c1e-be183ae7fd5c")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -15616,7 +15377,7 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
+		(property "Value" "LM358"
 			(at 222.25 145.034 0)
 			(effects
 				(font
@@ -18859,6 +18620,103 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 62.23 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a7d152c7-f44d-4620-a2d7-eadc8cc876d4")
+		(property "Reference" "C37"
+			(at 64.77 45.7135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220p"
+			(at 64.77 48.2535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c301a31d-ea98-40ea-ae45-7289afa47a26")
+		)
+		(pin "2"
+			(uuid "a9792759-53e3-4e27-b41f-9109b4aed9b3")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 67.31 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19692,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
+		(property "Value" "LM358"
 			(at 222.631 104.394 0)
 			(effects
 				(font
@@ -20295,7 +20153,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NE5532"
+		(property "Value" "LM358"
 			(at 237.998 151.13 0)
 			(effects
 				(font
@@ -22392,6 +22250,72 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd6f59cc-776e-477c-a3a0-aa6fc9207fa0")
+		(property "Reference" "#PWR051"
+			(at 62.23 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d7effa1-0982-476d-9e1c-d5c3df460a8b")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
