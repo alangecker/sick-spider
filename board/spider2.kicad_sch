@@ -9648,7 +9648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 157.48 64.77 0)
 			(effects
 				(font
@@ -9977,7 +9977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 157.48 21.59 0)
 			(effects
 				(font
@@ -10335,7 +10335,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 138.43 97.79 0)
 			(effects
 				(font
@@ -10432,7 +10432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 209.55 21.59 0)
 			(effects
 				(font
@@ -10654,7 +10654,7 @@
 				)
 			)
 		)
-		(property "Value" "200MDP3T1B1M6QE"
+		(property "Value" "200MDP3TxBxM6Q"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -11862,7 +11862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -14820,7 +14820,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -15172,7 +15172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -15938,7 +15938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -16135,7 +16135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -16861,7 +16861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 173.99 21.59 0)
 			(effects
 				(font
@@ -17514,7 +17514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -19306,7 +19306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 209.55 64.77 0)
 			(effects
 				(font
@@ -19471,7 +19471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -20409,7 +20409,7 @@
 				)
 			)
 		)
-		(property "Value" "200MDP3T1B1M6QE"
+		(property "Value" "200MDP3TxBxM6Q"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -21275,7 +21275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 209.55 43.18 0)
 			(effects
 				(font
@@ -21375,7 +21375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 173.99 43.18 0)
 			(effects
 				(font
@@ -21607,7 +21607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 191.77 21.59 0)
 			(effects
 				(font
@@ -22159,7 +22159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -22325,7 +22325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ359_20-1655"
+		(property "Footprint" "custom:Jack_3.5mm_Hybrid_PJ358_PJ359_20-1655"
 			(at 173.99 64.77 0)
 			(effects
 				(font
