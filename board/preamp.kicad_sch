@@ -2921,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 112.141 93.98 0)
 			(effects
 				(font
@@ -3005,7 +3005,7 @@
 		(fields_autoplaced yes)
 		(uuid "a721920c-9ebc-425f-9167-385af9c93551")
 		(property "Reference" "C9"
-			(at 110.8773 70.612 90)
+			(at 110.8773 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,14 +3013,14 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 110.8773 73.152 90)
+			(at 110.8773 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 110.871 77.47 0)
 			(effects
 				(font
