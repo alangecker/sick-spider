@@ -1567,16 +1567,6 @@
 		)
 		(uuid "814345b8-0b1e-4f24-8e65-13f8aa93e48a")
 	)
-	(text "poti and R combined results in an\neffective ~100k inverse log poti"
-		(exclude_from_sim no)
-		(at 249.936 107.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d0e8cfe3-d34f-45e9-87e8-e0e4ac3c6136")
-	)
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 218.6686 76.3016 0)
@@ -1620,7 +1610,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "056163f0-d05d-46cd-ab16-aa0a42f13d4a")
 		(property "Reference" "R26"
@@ -1632,7 +1622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120k"
+		(property "Value" "dnp"
 			(at 243.84 93.9799 0)
 			(effects
 				(font
@@ -2216,7 +2206,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RV09AF-40-30K-B500K"
+		(property "Value" "RV09AF-40-30K-C100K"
 			(at 258.7244 100.33 0)
 			(effects
 				(font
