@@ -5,6 +5,108 @@
 	(uuid "31d36b18-012a-41e4-9fb7-b48296ea727b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1306,16 +1408,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.5186 70.612) (xy 161.5186 72.3392)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371b27fa-3970-45df-b04f-d88cda46494c")
-	)
-	(wire
-		(pts
 			(xy 269.24 105.41) (xy 256.54 105.41)
 		)
 		(stroke
@@ -1323,6 +1415,16 @@
 			(type default)
 		)
 		(uuid "3808b051-a037-424b-8833-9da1a783d53f")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 149.86 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce98a9f-9410-4fa3-b086-6f65e1bc7f07")
 	)
 	(wire
 		(pts
@@ -1393,6 +1495,16 @@
 			(type default)
 		)
 		(uuid "537c34e4-314f-4716-885f-00707d43db24")
+	)
+	(wire
+		(pts
+			(xy 149.86 70.612) (xy 164.973 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588164b6-2860-4451-bc5e-88cb6d0f7407")
 	)
 	(wire
 		(pts
@@ -1823,16 +1935,6 @@
 			(type default)
 		)
 		(uuid "eb8ff20e-3d7d-4bd9-8f26-df73f946a574")
-	)
-	(wire
-		(pts
-			(xy 164.973 70.612) (xy 161.5186 70.612)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec838f7-8337-414c-a6ed-6fb8f86cc2b1")
 	)
 	(wire
 		(pts
@@ -3623,6 +3725,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b412a35a-eb99-408d-a3a6-0d3bb76a2d2a")
+		(property "Reference" "TP6"
+			(at 152.4 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AUX_IN"
+			(at 152.4 65.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bbfd121-6307-41ad-9b7f-9e62c4c34640")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/ef17f1e3-6d4b-48c3-ada3-a0af083f4146"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 133.35 86.36 180)
 		(unit 1)
@@ -3888,76 +4061,6 @@
 				)
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.5186 72.3392 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dffc812e-725d-4135-85e9-2fee7133d64c")
-		(property "Reference" "#PWR039"
-			(at 161.5186 78.6892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.5186 77.1652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.5186 72.3392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.5186 72.3392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.5186 72.3392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d31dd354-908f-4973-ad68-1a4356cedb36")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/ef17f1e3-6d4b-48c3-ada3-a0af083f4146"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e/5a710a45-03d0-4177-b57a-0573a00e8cb4"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
