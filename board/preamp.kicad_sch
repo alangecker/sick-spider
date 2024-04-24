@@ -3729,7 +3729,7 @@
 		(at 149.86 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4084,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220-1%"
 			(at 222.25 85.09 90)
 			(effects
 				(font
