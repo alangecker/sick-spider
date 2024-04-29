@@ -1704,19 +1704,11 @@
 				)
 			)
 		)
-		(symbol "Connector_Audio:NRJ6HH"
+		(symbol "Connector_Audio:NRJ6HH-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NRJ6HH"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -1724,7 +1716,15 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HH_Horizontal"
+			(property "Value" "NRJ6HH-1"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NRJ6HH-1_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1733,7 +1733,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hh"
+			(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hh-1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1742,7 +1742,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose"
+			(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose, sleeve contact/front panel connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1751,7 +1751,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones connector neutrik"
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector neutrik"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1769,7 +1769,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NRJ6HH_0_1"
+			(symbol "NRJ6HH-1_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end -6.35 -7.62)
@@ -1779,18 +1779,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.826) (xy -1.016 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -1855,18 +1843,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
 					)
 					(stroke
@@ -1879,7 +1855,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1890,8 +1866,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 6.35)
-					(end -5.08 -8.89)
+					(start 2.54 3.81)
+					(end -5.08 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1901,7 +1877,25 @@
 					)
 				)
 			)
-			(symbol "NRJ6HH_1_1"
+			(symbol "NRJ6HH-1_1_1"
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -1939,24 +1933,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
 					(name "~"
@@ -1966,7 +1942,7 @@
 							)
 						)
 					)
-					(number "SN"
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5496,12 +5472,6 @@
 		(uuid "3381f074-36c5-4da5-ade5-70ac8e7e1e86")
 	)
 	(junction
-		(at 29.21 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34045545-70b8-492a-b47d-35721e7a43d0")
-	)
-	(junction
 		(at 236.22 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5578,12 +5548,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "555cdcbc-19c7-498d-b632-e86a1d7ac085")
-	)
-	(junction
-		(at 26.67 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59b331c1-2f10-434f-a6ca-447393b54358")
 	)
 	(junction
 		(at 158.75 107.95)
@@ -6285,7 +6249,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 45.72) (xy 26.67 49.53)
+			(xy 26.67 43.18) (xy 26.67 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6455,16 +6419,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 96.52) (xy 25.4 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2392b20b-48fe-4c32-96ce-466d019ac8d7")
-	)
-	(wire
-		(pts
 			(xy 270.51 50.8) (xy 265.43 50.8)
 		)
 		(stroke
@@ -6615,7 +6569,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 93.98) (xy 29.21 96.52)
+			(xy 29.21 93.98) (xy 29.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7615,16 +7569,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 43.18) (xy 26.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eb95fd4-f88a-4085-91c3-39f8e3f175c1")
-	)
-	(wire
-		(pts
 			(xy 243.84 111.76) (xy 247.396 111.76)
 		)
 		(stroke
@@ -7942,16 +7886,6 @@
 			(type default)
 		)
 		(uuid "81a216d3-6f7f-4d4b-8148-b4caa97f4e8f")
-	)
-	(wire
-		(pts
-			(xy 24.13 45.72) (xy 26.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "820d1c60-4c61-4af4-9acc-e24e2efc669b")
 	)
 	(wire
 		(pts
@@ -8862,16 +8796,6 @@
 			(type default)
 		)
 		(uuid "c7564ba3-7499-4ba4-a898-39f9cabf7b5d")
-	)
-	(wire
-		(pts
-			(xy 29.21 100.33) (xy 29.21 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c97d53f4-33be-4308-bc36-bc0e97728237")
 	)
 	(wire
 		(pts
@@ -10486,7 +10410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 49.53 0)
+		(at 26.67 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10495,7 +10419,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ec8ba57-57f3-41ca-8ac9-8e1f48fd14e9")
 		(property "Reference" "#PWR02"
-			(at 26.67 55.88 0)
+			(at 26.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 54.61 0)
+			(at 26.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 49.53 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 49.53 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 49.53 0)
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +11169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 100.33 0)
+		(at 29.21 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11254,7 +11178,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b6bc6cc-662b-4cfd-823b-8c83c1c142b0")
 		(property "Reference" "#PWR03"
-			(at 29.21 106.68 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 105.41 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 100.33 0)
+			(at 29.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11280,7 +11204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 100.33 0)
+			(at 29.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11289,7 +11213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 100.33 0)
+			(at 29.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16410,7 +16334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:NRJ6HH")
+		(lib_id "Connector_Audio:NRJ6HH-1")
 		(at 20.32 91.44 0)
 		(mirror x)
 		(unit 1)
@@ -16444,7 +16368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hh"
+		(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hh-1"
 			(at 20.32 91.44 0)
 			(effects
 				(font
@@ -16453,7 +16377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose"
+		(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose, sleeve contact/front panel connection"
 			(at 20.32 91.44 0)
 			(effects
 				(font
@@ -16500,7 +16424,7 @@
 		(pin "S"
 			(uuid "37fda6a5-cd31-44f7-9e3a-f462a684181f")
 		)
-		(pin "SN"
+		(pin "G"
 			(uuid "e147b14f-1a99-49a6-aa17-93b663f02da3")
 		)
 		(pin "R"
@@ -19033,6 +18957,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 19.05 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31af3f0-cedd-45d2-be10-8e41dbe19c86")
+		(property "Reference" "#PWR049"
+			(at 19.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de251e7d-2dff-422c-9b7f-2178f65c5fa4")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 160.02 72.39 0)
 		(unit 1)
@@ -20705,6 +20695,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 20.32 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d644ef99-5742-4749-9497-96476a1a9704")
+		(property "Reference" "#PWR014"
+			(at 20.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c9a5a7-cd7c-4ae4-9ac9-5d368aa54ba5")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 132.08 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21003,7 +21059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:NRJ6HH")
+		(lib_id "Connector_Audio:NRJ6HH-1")
 		(at 19.05 40.64 0)
 		(mirror x)
 		(unit 1)
@@ -21037,7 +21093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.neutrik.com/media/9131/download/st-nrj6hh-1.PDF?v=2"
+		(property "Datasheet" "https://www.neutrik.com/en/product/nrj6hh-1"
 			(at 19.05 40.64 0)
 			(effects
 				(font
@@ -21046,7 +21102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose"
+		(property "Description" "Slim Jacks, 6.35mm (1/4in) stereo jack, switched, half threaded nose, sleeve contact/front panel connection"
 			(at 19.05 40.64 0)
 			(effects
 				(font
@@ -21093,7 +21149,7 @@
 		(pin "S"
 			(uuid "330cf377-15d0-40b8-b5a3-31f55395a781")
 		)
-		(pin "SN"
+		(pin "G"
 			(uuid "4d246b63-bf02-450d-95e9-3ce13f01637e")
 		)
 		(pin "R"
