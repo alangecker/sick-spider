@@ -1,6 +1,11 @@
 kibot:
   version: 1
 
+preflight:
+  update_xml:
+    # check_pcb_parity: true
+    enabled: true
+
 outputs:
 - name: basic_pdf_sch_print
   comment: Schematic in PDF format
@@ -13,6 +18,9 @@ outputs:
   dir: .
   options:
     include_nets: true
+    normalize_field_case: true
+    extra_fields: Note
+    show_fields: Value,Note,Footprint
 
 # - name: basic_download_datasheets
 #   comment: Download the datasheets
