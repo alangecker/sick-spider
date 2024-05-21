@@ -1,7 +1,7 @@
 # SICK Spider
 A new board design for the amazing [COATI Spider project](https://coati.pimienta.org/electronics/spider/), a small portable device for simultaneous interpretation.
 
-![rendered view of the board](board-rendered.png)
+![photo of the finished board with soldered components](board.jpg)
 
 
 ## Changes compared to the COATI spider
@@ -20,13 +20,13 @@ A new board design for the amazing [COATI Spider project](https://coati.pimienta
 
 #### Version 1.0  (Documents work in progress)
 - Ordering
-  * [Parts list](https://pad.kanthaus.online/sick-spider-parts-list)
+  * [Parts list](https://pad.kanthaus.online/sick-spider-parts-list?view)
   * Gerber files: [JLCPCB](https://alangecker.github.io/sick-spider/output/1.0/JLCPCB/spider2-JLCPCB.zip)
 - Building instructions
-    * [Part 1: soldering “SMD” components](https://pad.kanthaus.online/sick-spider-instructions-part1)
-    * [Part 2: soldering "trough hole" components](https://pad.kanthaus.online/sick-spider-instructions-part2)
-    * [Part 3: building the case](https://pad.kanthaus.online/sick-spider-instructions-part3)
-- [Debugging](https://pad.kanthaus.online/sick-spider-instructions-debugging)
+    * [Part 1: soldering “SMD” components](https://pad.kanthaus.online/sick-spider-instructions-part1?view)
+    * [Part 2: soldering "trough hole" components](https://pad.kanthaus.online/sick-spider-instructions-part2?view)
+    * [Part 3: building the case](https://pad.kanthaus.online/sick-spider-instructions-part3?view)
+- [Debugging](https://pad.kanthaus.online/sick-spider-instructions-debugging?view)
 - [Boardview and BOM](https://alangecker.github.io/sick-spider/output/1.0/spider2-ibom.html)
 - [Schematic](https://alangecker.github.io/sick-spider/output/1.0/spider2-schematic.pdf)
 
