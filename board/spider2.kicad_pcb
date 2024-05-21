@@ -213,7 +213,7 @@
 		(descr " right angle DPDT push button https://www.e-switch.com/system/asset/product_line/data_sheet/210/800U.pdf")
 		(tags "IP67 ultra-miniture horizontal")
 		(property "Reference" "SW4"
-			(at 8.6934 7.1506 -90)
+			(at 3.4734 7.1506 -90)
 			(layer "F.SilkS")
 			(uuid "95cbc290-2eed-4b6d-836c-b3790b004489")
 			(effects
@@ -224,12 +224,12 @@
 			)
 		)
 		(property "Value" "200MDP3TxBxM6Q"
-			(at 5.4434 -1.9094 -90)
+			(at 4.4934 -1.9994 270)
 			(layer "F.SilkS")
 			(uuid "946913b7-2472-488a-a695-9858fbb1322b")
 			(effects
 				(font
-					(size 0.8 0.7)
+					(size 0.8 0.6)
 					(thickness 0.1)
 				)
 			)
@@ -43851,6 +43851,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BAT"
+		(at 154.21 32.12 0)
+		(layer "F.SilkS")
+		(uuid "676864f5-7900-4240-9104-2821fc5b8da7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "v1.0"
 		(at 184.821151 100.845524 0)
 		(layer "F.SilkS")
@@ -43885,6 +43897,18 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "USB"
+		(at 146.56 32.04 0)
+		(layer "F.SilkS")
+		(uuid "b6d5320d-fc1c-4a59-a7f2-f8f75450f4fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "PJ358 or 20-1655"
