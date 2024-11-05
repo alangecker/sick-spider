@@ -18,6 +18,9 @@ A new board design for the amazing [COATI Spider project](https://coati.pimienta
 
 ## Documents & How-To's
 
+#### Version 1.1
+- [Changelog](./CHANGELOG.md)
+
 #### Version 1.0  (Documents work in progress)
 - Ordering
   * [Parts list](https://pad.kanthaus.online/sick-spider-parts-list?view)
