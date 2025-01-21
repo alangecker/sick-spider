@@ -1,5 +1,12 @@
 # SICK Spider changelog
 
+## Version 1.1b
+- Limit Microphone Gain (R36,R46)
+- Battery fuse
+- More room for soldering USB port
+- Correct footprints for 0.1uF capacitors
+- Correct footprints for 4.7k resistor
+
 ## Version 1.1
 - replace MAX4062 with own preamplifier circuit in order to avoid difficult TSOP soldering
 - Fix wrong footprints for 20-1655 headphone jacks

@@ -1843,6 +1843,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 152.4 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dacd28a-2e8e-41d9-9620-024bf69c0204")
 		)
@@ -1881,7 +1890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K-B"
+		(property "Value" "RV09AF-40-30K-C10K"
 			(at 171.704 98.806 90)
 			(effects
 				(font
@@ -1952,6 +1961,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "432b79ed-471c-4d3d-b455-d6e683d37c10")
 		)
@@ -1991,7 +2009,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "47"
 			(at 158.115 92.3036 90)
 			(effects
 				(font
@@ -2018,6 +2036,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.115 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 158.115 95.25 0)
 			(effects
 				(font
@@ -2175,6 +2202,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2dd2491-d6e2-4f49-89d1-9b0387341710")
 		)
@@ -2283,6 +2319,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a5aa4685-a190-4bc0-bf56-79cc2f0d6fe5")
 		)
@@ -2382,6 +2427,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0ddb5d7-9d30-483d-a01c-5bab31c72067")
 		)
@@ -2463,6 +2517,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e9ba7543-e06f-4357-b737-63e26352c03a")
 		)
@@ -2542,6 +2605,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d3d4fde-8f64-4c2b-ae92-2e8708c44fd2")
 		)
@@ -2586,7 +2658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -2632,6 +2704,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -2686,7 +2767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 236.22 50.8 0)
 			(effects
 				(font
@@ -2748,6 +2829,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c421135-fe52-4559-a4b0-4189de9f5361")
 		)
@@ -2793,7 +2883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -2839,6 +2929,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -2955,6 +3054,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a5aa4685-a190-4bc0-bf56-79cc2f0d6fe6")
 		)
@@ -3054,6 +3162,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "230a6eab-3744-4f33-8305-b6a325063acf")
 		)
@@ -3100,7 +3217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 76.2 61.722 90)
 			(effects
 				(font
@@ -3133,6 +3250,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3182,7 +3308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 215.9 45.72 0)
 			(effects
 				(font
@@ -3228,6 +3354,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 215.9 45.72 0)
 			(effects
 				(font
@@ -3338,6 +3473,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 199.39 44.45 0)
 			(effects
 				(font
@@ -3464,6 +3608,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7503bc8c-f25e-466e-a651-3c0f66458401")
 		)
@@ -3510,7 +3663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 77.47 101.092 90)
 			(effects
 				(font
@@ -3543,6 +3696,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

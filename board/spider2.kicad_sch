@@ -2615,6 +2615,138 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -5660,6 +5792,12 @@
 		(uuid "3381f074-36c5-4da5-ade5-70ac8e7e1e86")
 	)
 	(junction
+		(at 74.93 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37413fb4-e904-49b7-98a6-12dfed2ed529")
+	)
+	(junction
 		(at 236.22 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5796,6 +5934,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63996c08-e02d-4559-adb1-ea25414bdfb0")
+	)
+	(junction
+		(at 80.01 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661f20a4-67ed-4ac3-a58d-d464e57acb07")
 	)
 	(junction
 		(at 147.32 55.88)
@@ -6148,6 +6292,16 @@
 			(type default)
 		)
 		(uuid "00069e1b-c997-4504-a971-d06876dd717b")
+	)
+	(wire
+		(pts
+			(xy 74.93 177.8) (xy 74.93 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d11c7-1dfa-495e-8e0f-1e05f3b1eabd")
 	)
 	(wire
 		(pts
@@ -6538,6 +6692,16 @@
 			(type default)
 		)
 		(uuid "1b05ee00-d478-4bdc-8870-48c6938656cd")
+	)
+	(wire
+		(pts
+			(xy 22.86 129.54) (xy 22.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd06a23-39d5-4678-bf91-d5441e53a5d2")
 	)
 	(wire
 		(pts
@@ -7371,7 +7535,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 29.21) (xy 95.25 29.21)
+			(xy 82.55 29.21) (xy 95.25 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7411,6 +7575,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 176.53) (xy 74.93 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea92be7-bbc2-46b1-a864-1a20ffc99fa9")
+	)
+	(wire
+		(pts
 			(xy 217.17 129.54) (xy 213.36 129.54)
 		)
 		(stroke
@@ -7418,6 +7592,16 @@
 			(type default)
 		)
 		(uuid "4ed62568-b68a-4978-be48-e5ede9733fdc")
+	)
+	(wire
+		(pts
+			(xy 80.01 177.8) (xy 80.01 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eedc8eb-4a28-49d0-b7dd-cb9f7644e2c8")
 	)
 	(wire
 		(pts
@@ -8111,7 +8295,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 38.1)
+			(xy 82.55 36.83) (xy 82.55 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8841,7 +9025,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 95.25 38.1)
+			(xy 82.55 38.1) (xy 95.25 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8881,7 +9065,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 123.19) (xy 22.86 132.08)
+			(xy 22.86 123.19) (xy 22.86 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8901,7 +9085,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 29.21) (xy 88.9 31.75)
+			(xy 82.55 29.21) (xy 82.55 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9128,6 +9312,16 @@
 			(type default)
 		)
 		(uuid "c835091a-4f88-41e0-bb76-09dd4292d9fb")
+	)
+	(wire
+		(pts
+			(xy 80.01 176.53) (xy 80.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84f27c8-ebf5-431a-ada3-7d4e95bfa56f")
 	)
 	(wire
 		(pts
@@ -10010,6 +10204,16 @@
 		)
 		(uuid "a09d8b00-66a9-4b36-9d88-58860939b1e6")
 	)
+	(text "RC filter\n96 Hz"
+		(exclude_from_sim no)
+		(at 83.566 173.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bce87dff-858a-43c4-b643-f1310493829b")
+	)
 	(text "power supply"
 		(exclude_from_sim no)
 		(at 15.3924 116.7892 0)
@@ -10278,6 +10482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 157.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "fd104485-8e9f-47f4-8296-a9c69c854429")
 		)
@@ -10509,6 +10722,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 157.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "1e734985-3aec-46d6-8d67-a6dd1f42d337")
 		)
@@ -10614,6 +10836,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 251.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b9746bb-672a-4160-804f-97fb356d82ff")
 		)
@@ -10703,6 +10934,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 236.22 66.421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 236.22 66.421 0)
 			(effects
 				(font
@@ -10874,6 +11114,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c57e5f53-0786-4cf8-a38a-288d07f84015")
 		)
@@ -10963,6 +11212,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 209.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 209.55 21.59 0)
 			(effects
 				(font
@@ -11201,6 +11459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 36.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0842d7cf-a573-403e-8525-b2581986938c")
 		)
@@ -11310,6 +11577,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e59e1a68-c2f2-4240-801c-57d174f9599c")
 		)
@@ -11349,7 +11625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 135.89 182.88 0)
 			(effects
 				(font
@@ -11395,6 +11671,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 135.89 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 135.89 182.88 0)
 			(effects
 				(font
@@ -11836,6 +12121,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 121.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27116364-4082-4070-9d12-61a92c173c33")
 		)
@@ -11933,6 +12227,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1613d176-6f51-4ddf-adf9-26dc2eaaa19b")
 		)
@@ -12018,6 +12321,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 137.16 140.97 0)
 			(effects
 				(font
@@ -12129,6 +12441,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 251.46 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b639aa3-ec7c-4605-8bd6-3bfa1745e9bb")
 		)
@@ -12218,6 +12539,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 191.77 64.77 0)
 			(effects
 				(font
@@ -12363,6 +12693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed92a598-b175-47f2-8b5d-02a1de66f247")
 		)
@@ -12460,6 +12799,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 236.22 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "231b581f-9cf4-4582-ac88-d020bbe60096")
 		)
@@ -12521,6 +12869,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 200.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 200.66 111.76 0)
 			(effects
 				(font
@@ -12692,6 +13049,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 176.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78aea2aa-cffd-42b2-be59-bbcbd1c3f3ef")
 		)
@@ -12789,6 +13155,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "R2"
 			(uuid "a6670eb0-968d-428c-8a51-70b61802d953")
 		)
@@ -12867,6 +13242,15 @@
 			)
 		)
 		(property "Note" "wide leads (D)"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 38.1 138.43 0)
 			(effects
 				(font
@@ -12966,6 +13350,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 167.64 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 167.64 141.732 0)
 			(effects
 				(font
@@ -13082,7 +13475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 95.25 34.29 0)
 			(effects
 				(font
@@ -13128,6 +13521,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 95.25 34.29 0)
 			(effects
 				(font
@@ -13233,6 +13635,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c65a6780-42c1-4d38-b2ea-375065e17589")
 		)
@@ -13306,6 +13717,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 220.98 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13397,6 +13817,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 45.72 177.8 0)
 			(effects
 				(font
@@ -13502,6 +13931,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 254 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f2fb087-574e-4aba-94d7-bc543ee0020d")
 		)
@@ -13545,7 +13983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 106.68 182.88 0)
 			(effects
 				(font
@@ -13591,6 +14029,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 106.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 106.68 182.88 0)
 			(effects
 				(font
@@ -13661,6 +14108,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 256.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 256.54 137.16 0)
 			(effects
 				(font
@@ -13756,6 +14212,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 106.68 137.16 0)
 			(effects
 				(font
@@ -13873,6 +14338,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78567069-7d9d-42ca-8d04-f17a93b423aa")
 		)
@@ -13977,6 +14451,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 87.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d4a792a-738b-4922-9974-e4f127489b15")
 		)
@@ -14074,6 +14557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae441e60-7e3f-468f-9263-6b407b8a4862")
 		)
@@ -14144,6 +14636,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 246.38 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b332193-99e9-4ee0-8ea9-27b218061638")
 		)
@@ -14203,6 +14704,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 254 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 254 171.45 0)
 			(effects
 				(font
@@ -14305,6 +14815,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 167.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6bfb5704-bc02-4997-827e-b81a43149285")
 		)
@@ -14327,7 +14846,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4a0b6f4c-cf3c-4365-9184-a2c020dce5b1")
 		(property "Reference" "C25"
 			(at 152.654 182.118 0)
@@ -14338,7 +14857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "dnp"
+		(property "Value" "220u/6.3V"
 			(at 152.908 183.896 0)
 			(effects
 				(font
@@ -14409,6 +14928,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e04b10f7-59af-4077-9f8d-f8f2a81e758f")
 		)
@@ -14469,6 +14997,15 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 25.4 163.83 0)
 			(effects
 				(font
@@ -14635,6 +15172,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 276.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7f93235-1461-4997-914d-9b974e2356c2")
 		)
@@ -14642,6 +15188,110 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d52db1f-4193-48a4-b238-84f4a97fcef1")
+		(property "Reference" "R34"
+			(at 77.47 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15"
+			(at 77.47 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
+			(at 77.47 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e346388-8e74-467e-8b49-8de9aff5e2c1")
+		)
+		(pin "1"
+			(uuid "9402a44e-29df-4b91-adef-d255e432677a")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -14721,6 +15371,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -14897,6 +15556,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ffea2a3-a59c-497e-aa37-899d6d859dbd")
 		)
@@ -15052,6 +15720,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -15264,6 +15941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 143.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb6723c0-e9c9-471d-a4f4-ee2be1ab3b27")
 		)
@@ -15405,6 +16091,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "972e46cb-cc58-4e12-bede-fa8842d2739a")
 		)
@@ -15505,6 +16200,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bae02f6-7d86-41b1-a7be-cd7ce698d25b")
 		)
@@ -15591,6 +16295,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -15702,6 +16415,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63794076-9023-45ab-9d41-8b1188a0f9fd")
 		)
@@ -15791,6 +16513,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -15896,6 +16627,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "906f5258-ffc2-45c1-b7df-782f978e584d")
 		)
@@ -15955,6 +16695,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 261.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 261.62 171.45 0)
 			(effects
 				(font
@@ -16192,6 +16941,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 222.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -16477,6 +17235,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 83.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f237afd-589e-48ed-ac44-14271ce49fd8")
 		)
@@ -16566,6 +17333,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -16674,6 +17450,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 54.61 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee472a5a-5935-4494-bb1d-a784f2f422bb")
 		)
@@ -16763,6 +17548,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 191.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 191.77 43.18 0)
 			(effects
 				(font
@@ -16863,6 +17657,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 160.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -16972,6 +17775,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "S"
@@ -17147,6 +17959,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f49b5afd-f868-4d5d-b24d-932da6701661")
 		)
@@ -17190,7 +18011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -17236,6 +18057,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -17406,6 +18236,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 173.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "001a1483-13ad-483a-aee4-b8d6bccb1b6f")
 		)
@@ -17498,6 +18337,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 194.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 194.31 50.8 0)
 			(effects
 				(font
@@ -17720,6 +18568,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 22.86 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "855dfc6f-720c-482e-bba7-a9069b87bd92")
+		(property "Reference" "F1"
+			(at 18.542 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250mA"
+			(at 14.224 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e24bc0f-37c1-426f-84c7-1e0931c455ff")
+		)
+		(pin "1"
+			(uuid "28de3609-5ac7-4c2c-9a10-1d2eef65e17b")
+		)
+		(instances
+			(project ""
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 251.46 111.76 90)
 		(unit 1)
@@ -17804,6 +18721,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 251.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17895,6 +18821,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -18006,6 +18941,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "845402d3-98aa-49cf-b106-2ad3bf818b4f")
 		)
@@ -18067,6 +19011,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 256.54 116.84 0)
 			(effects
 				(font
@@ -18172,6 +19125,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8386b534-7e9a-4728-a3b7-42083ecb8f52")
 		)
@@ -18269,6 +19231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cb0d5a3a-892d-449f-8ae1-a32f2ba9c329")
 		)
@@ -18279,101 +19250,6 @@
 			(project "spider2"
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 77.47 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98d40b0d-97f9-47c1-93f5-53f83a75999f")
-		(property "Reference" "R34"
-			(at 77.47 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15"
-			(at 77.47 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 77.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 77.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 77.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 77.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 77.47 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "398e4729-8bfa-4541-992c-8eea523b90d9")
-		)
-		(pin "1"
-			(uuid "9d3a33c7-a9ba-4181-a140-1f87a648adb5")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -18471,7 +19347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -18517,6 +19393,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -18632,6 +19517,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 269.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6132e0c4-ef1b-4f55-aa19-de945f6c0ee2")
 		)
@@ -18743,6 +19637,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 251.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32288e48-5f93-47c4-ae4c-db5215d5ecc2")
 		)
@@ -18821,6 +19724,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 209.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1d577d2-aeb3-4478-afce-9689ab251cfa")
 		)
@@ -18838,7 +19750,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 88.9 34.29 0)
+		(at 82.55 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18846,7 +19758,7 @@
 		(dnp no)
 		(uuid "a5827525-845e-4f39-a0ac-6f248277f111")
 		(property "Reference" "C19"
-			(at 89.408 30.48 0)
+			(at 83.058 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18854,8 +19766,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
-			(at 89.408 32.512 0)
+		(property "Value" "220u/6.3V"
+			(at 83.058 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18864,7 +19776,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 88.9 34.29 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +19785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 34.29 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18882,7 +19794,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 88.9 34.29 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18891,7 +19803,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 88.9 34.29 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18900,7 +19812,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 88.9 34.29 0)
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18909,7 +19821,16 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 88.9 34.29 0)
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18940,7 +19861,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a59d94f9-b157-4e51-a4ee-6fc178466ae2")
 		(property "Reference" "R33"
 			(at 203.2 100.3299 0)
@@ -18951,7 +19871,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 203.2 102.8699 0)
 			(effects
 				(font
@@ -18979,6 +19899,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -19090,6 +20019,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b01a4677-2d86-45e4-90ef-930b2a88098a")
 		)
@@ -19196,7 +20134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 67.31 40.64 0)
 			(effects
 				(font
@@ -19242,6 +20180,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 67.31 40.64 0)
 			(effects
 				(font
@@ -19312,6 +20259,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 269.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 269.24 171.45 0)
 			(effects
 				(font
@@ -19414,6 +20370,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5863979-90d3-4e1a-bbf6-a9333ada49e2")
 		)
@@ -19444,7 +20409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "220u/6.3V"
 			(at 85.598 181.102 0)
 			(effects
 				(font
@@ -19499,6 +20464,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 85.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -19670,6 +20644,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e9e1ef21-9f6c-4bd5-9683-cb8ff190aa75")
 		)
@@ -19759,6 +20742,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 209.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 209.55 64.77 0)
 			(effects
 				(font
@@ -19896,6 +20888,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 152.4 134.62 0)
 			(effects
 				(font
@@ -20066,6 +21067,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "a5bd794c-f32c-4fb6-a75f-c7d860eb1985")
 		)
@@ -20144,6 +21154,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 121.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -20255,6 +21274,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -20372,6 +21400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 194.31 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26a26967-bc11-497b-abf0-81d4001f272d")
 		)
@@ -20469,6 +21506,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8f04a9f-a498-4c95-84d4-7f05c7dcbe5a")
 		)
@@ -20511,7 +21557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 252.73 151.13 0)
 			(effects
 				(font
@@ -20571,6 +21617,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Test" ""
+			(at 252.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20668,6 +21723,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 242.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fdef657-9d7d-4e13-8a02-a4aac0cd1da4")
 		)
@@ -20757,6 +21821,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 267.97 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 267.97 116.84 0)
 			(effects
 				(font
@@ -20876,6 +21949,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "a49dbc0f-d011-4329-8a72-cf5805ce7aca")
 		)
@@ -20981,6 +22063,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 60.96 134.62 0)
 			(effects
 				(font
@@ -21104,6 +22195,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a77d9d6-7202-4a7c-8fcb-28175495cc55")
 		)
@@ -21193,6 +22293,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 156.21 154.94 0)
 			(effects
 				(font
@@ -21428,6 +22537,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 208.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df6c690e-af84-4ce2-b1f5-b8aab76f7088")
 		)
@@ -21531,6 +22649,15 @@
 				)
 			)
 		)
+		(property "Test" ""
+			(at 19.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S"
 			(uuid "330cf377-15d0-40b8-b5a3-31f55395a781")
 		)
@@ -21632,6 +22759,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 271.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 271.78 66.04 0)
 			(effects
 				(font
@@ -21747,7 +22883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -21793,6 +22929,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -21898,6 +23043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "T"
 			(uuid "b1b682f2-3174-43d9-a542-90717ddcbfe4")
 		)
@@ -21990,6 +23144,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 173.99 43.18 0)
 			(effects
 				(font
@@ -22149,6 +23312,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e78bac5a-1df5-47c6-ab03-aa2006155ffc")
+		(property "Reference" "R50"
+			(at 76.962 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15"
+			(at 76.962 185.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
+			(at 77.47 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f75a02ff-54af-4bfe-93b0-a270234c17e0")
+		)
+		(pin "1"
+			(uuid "c88a95e0-ce6c-41d5-abf5-b6b2ff71a95d")
+		)
+		(instances
+			(project "spider2"
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 191.77 21.59 270)
 		(unit 1)
@@ -22222,6 +23488,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 191.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 191.77 21.59 0)
 			(effects
 				(font
@@ -22322,6 +23597,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 212.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 212.09 50.8 0)
 			(effects
 				(font
@@ -22504,7 +23788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -22550,6 +23834,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 101.6 34.29 0)
 			(effects
 				(font
@@ -22654,6 +23947,15 @@
 				(hide yes)
 			)
 		)
+		(property "Test" ""
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97989933-5d8e-4e65-b2a2-8a152ead4406")
 		)
@@ -22743,6 +24045,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -22909,6 +24220,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Test" ""
 			(at 173.99 64.77 0)
 			(effects
 				(font
