@@ -1,5 +1,11 @@
 # SICK Spider changelog
 
+## Version 1.1c
+- Fix misaligned traces at C16, C7 and C24
+- Add missing Silkscreen value for C29
+- Power switch 1mm further inside (sticks out quite a lot)
+- more clearence for headphone jacks so that it is more difficult to bridge them to GND
+
 ## Version 1.1b
 - Limit Microphone Gain (R36,R46)
 - Battery fuse

@@ -22,14 +22,14 @@ A new board design for the amazing [COATI Spider project](https://coati.pimienta
 - [Changelog](./CHANGELOG.md)
 - Ordering
   * [Parts list](https://pad.kanthaus.online/sick-spider-parts-list?view)
-  * Gerber files: [JLCPCB](https://alangecker.github.io/sick-spider/output/1.1b/JLCPCB/spider2-JLCPCB.zip)
+  * Gerber files: [JLCPCB](https://alangecker.github.io/sick-spider/output/1.1c/JLCPCB/spider2-JLCPCB.zip)
 - Building instructions
     * [Part 1: soldering “SMD” components](https://pad.kanthaus.online/sick-spider-instructions-part1?view)
     * [Part 2: soldering "trough hole" components](https://pad.kanthaus.online/sick-spider-instructions-part2?view)
     * [Part 3: building the case](https://pad.kanthaus.online/sick-spider-instructions-part3?view)
 - [Debugging](https://pad.kanthaus.online/sick-spider-instructions-debugging?view)
-- [Boardview and BOM](https://alangecker.github.io/sick-spider/output/1.1b/spider2-ibom.html)
-- [Schematic](https://alangecker.github.io/sick-spider/output/1.1b/spider2-schematic.pdf)
+- [Boardview and BOM](https://alangecker.github.io/sick-spider/output/1.1c/spider2-ibom.html)
+- [Schematic](https://alangecker.github.io/sick-spider/output/1.1c/spider2-schematic.pdf)
 
 #### Version 1.0
 - Ordering
