@@ -4453,7 +4453,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPDT_x2"
+		(symbol "Switch:SW_DP3T"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4469,7 +4469,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_DPDT_x2"
+			(property "Value" "SW_DP3T"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4478,7 +4478,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -15.875 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4487,6 +4487,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at -15.875 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, three position, dual pole triple throw, 3 position switch, SP3T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4495,7 +4504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
+			(property "ki_keywords" "switch dp3t ON-ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4504,7 +4513,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+			(property "ki_fp_filters" "SW* DP3T*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4513,40 +4522,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
+			(symbol "SW_DP3T_0_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -4558,9 +4534,20 @@
 						(type background)
 					)
 				)
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -4572,7 +4559,29 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.508)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -4582,18 +4591,18 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_1_1"
+			(symbol "SW_DP3T_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4604,7 +4613,7 @@
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4620,16 +4629,34 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "C"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4638,11 +4665,29 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_2_1"
+			(symbol "SW_DP3T_2_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4658,16 +4703,16 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "A"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4678,14 +4723,14 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "C"
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6506,16 +6551,24 @@
 		(uuid "fed5b141-fc19-407e-b741-4b5c804d9b09")
 	)
 	(no_connect
+		(at 31.75 125.73)
+		(uuid "046837ef-7e64-47f0-976c-76117c19240a")
+	)
+	(no_connect
+		(at 31.75 128.27)
+		(uuid "254e0766-2ecb-4ebd-95fc-ce675ffb07b2")
+	)
+	(no_connect
 		(at 88.9 82.55)
 		(uuid "457e3a0a-0563-499f-a0a9-74631bf1ec7c")
 	)
 	(no_connect
-		(at 31.75 128.27)
-		(uuid "7133f141-7486-4c44-93e2-cc84d93c3ec7")
-	)
-	(no_connect
 		(at 88.9 80.01)
 		(uuid "71ab1fd8-1aa3-41a9-b0e0-5cbac7e50e27")
+	)
+	(no_connect
+		(at 55.88 134.62)
+		(uuid "960ba76a-7059-4f8f-a84d-ec31b40e2dff")
 	)
 	(wire
 		(pts
@@ -11492,122 +11545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 36.83 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13279265-7aba-458c-87eb-f3586cd19603")
-		(property "Reference" "SW4"
-			(at 36.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200MDP3TxBxM6Q"
-			(at 36.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P2T_Vertical_E-Switch_800UDP8P1A1M6"
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/140/200-3304369.pdf"
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Test" ""
-			(at 36.83 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0842d7cf-a573-403e-8525-b2581986938c")
-		)
-		(pin "4"
-			(uuid "d4ef221d-c9d1-459d-885b-8e5c164a787e")
-		)
-		(pin "3"
-			(uuid "746aa1f2-c80d-4f04-ba62-119ae55046b4")
-		)
-		(pin "2"
-			(uuid "b2f99dfe-bcbe-451d-a5a4-3a96785e76a8")
-		)
-		(pin "1"
-			(uuid "1514479e-2f28-4f52-8b18-e516085d32b6")
-		)
-		(pin "6"
-			(uuid "f9f612ae-b9c3-475a-9944-cd12e9c535c4")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 82.55 129.54 0)
 		(unit 1)
@@ -13495,6 +13432,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DP3T")
+		(at 60.96 134.62 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fb40785-ec0c-4822-80ba-c0561e6da05d")
+		(property "Reference" "SW1"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK-23D07"
+			(at 60.706 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK-23D07"
+			(at 76.835 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.835 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, three position, dual pole triple throw, 3 position switch, SP3T"
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "dab55e2d-e243-4d75-8c35-f44c8a6a48df")
+		)
+		(pin "5"
+			(uuid "90c81e30-4674-413b-87c0-695c11ee2c5b")
+		)
+		(pin "8"
+			(uuid "9928adc4-b9b7-4d89-9895-c34097f70ec7")
+		)
+		(pin "2"
+			(uuid "ca9248ac-272a-4fc8-99c9-a8d6b90e9ac4")
+		)
+		(pin "1"
+			(uuid "a5a5b71c-bb61-409a-818d-1d03d73ffcfd")
+		)
+		(pin "3"
+			(uuid "e5ad00ea-2f80-4460-92e8-b7ff93da5859")
+		)
+		(pin "4"
+			(uuid "2a5b4df6-966d-48dc-bb18-39366821e9b6")
+		)
+		(pin "6"
+			(uuid "ba527ace-3b2b-4076-b29a-1f505edb1606")
+		)
+		(instances
+			(project ""
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "SW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 77.47 129.54 0)
 		(unit 1)
@@ -15151,6 +15173,91 @@
 			(project ""
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DP3T")
+		(at 36.83 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b702e0a-0094-40da-9be2-0bd0e8356fc1")
+		(property "Reference" "SW1"
+			(at 36.322 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK-23D07"
+			(at 36.83 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom:SK-23D07"
+			(at 52.705 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.705 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, three position, dual pole triple throw, 3 position switch, SP3T"
+			(at 36.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "dab55e2d-e243-4d75-8c35-f44c8a6a48e0")
+		)
+		(pin "5"
+			(uuid "90c81e30-4674-413b-87c0-695c11ee2c5c")
+		)
+		(pin "8"
+			(uuid "9928adc4-b9b7-4d89-9895-c34097f70ec8")
+		)
+		(pin "2"
+			(uuid "ca9248ac-272a-4fc8-99c9-a8d6b90e9ac5")
+		)
+		(pin "1"
+			(uuid "a5a5b71c-bb61-409a-818d-1d03d73ffcfe")
+		)
+		(pin "3"
+			(uuid "e5ad00ea-2f80-4460-92e8-b7ff93da585a")
+		)
+		(pin "4"
+			(uuid "2a5b4df6-966d-48dc-bb18-39366821e9b7")
+		)
+		(pin "6"
+			(uuid "ba527ace-3b2b-4076-b29a-1f505edb1607")
+		)
+		(instances
+			(project ""
+				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -22099,122 +22206,6 @@
 				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
 					(reference "U4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 60.96 134.62 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d151727a-3076-4f38-ab71-2134cff072a9")
-		(property "Reference" "SW4"
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200MDP3TxBxM6Q"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P2T_Vertical_E-Switch_800UDP8P1A1M6"
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/140/200-3304369.pdf"
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Test" ""
-			(at 60.96 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "0842d7cf-a573-403e-8525-b2581986938d")
-		)
-		(pin "4"
-			(uuid "d4ef221d-c9d1-459d-885b-8e5c164a787f")
-		)
-		(pin "3"
-			(uuid "746aa1f2-c80d-4f04-ba62-119ae55046b5")
-		)
-		(pin "2"
-			(uuid "b2f99dfe-bcbe-451d-a5a4-3a96785e76a9")
-		)
-		(pin "1"
-			(uuid "1514479e-2f28-4f52-8b18-e516085d32b7")
-		)
-		(pin "6"
-			(uuid "f9f612ae-b9c3-475a-9944-cd12e9c535c5")
-		)
-		(instances
-			(project "spider2"
-				(path "/31073f88-a990-4ecc-8ab9-bb6b56c98e1e"
-					(reference "SW4")
-					(unit 2)
 				)
 			)
 		)

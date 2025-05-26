@@ -1,5 +1,8 @@
 # SICK Spider changelog
 
+## unreleased
+- replace expensive switch (200MDP3T1B1M6QE, 3-4€) by a much cheaper on (SK-23D07, ~10ct)
+
 ## Version 1.1c
 - Fix misaligned traces at C16, C7 and C24
 - Add missing Silkscreen value for C29
