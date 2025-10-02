@@ -1,6 +1,6 @@
 # SICK Spider changelog
 
-## unreleased
+## Version 1.2
 - replace expensive switch (200MDP3T1B1M6QE, 3-4€) by a much cheaper on (SK-23D07, ~10ct)
 
 ## Version 1.1c
